@@ -6,7 +6,7 @@
 .footer-upper-part{
     padding: 50px 300px 50px 300px;
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: space-between;
 }
 
@@ -32,6 +32,10 @@
     color: white;
     font-size: 16px;
     margin: 5px;
+}
+
+.Logo{
+    color:white
 }
 
 .footer-lower-part{
