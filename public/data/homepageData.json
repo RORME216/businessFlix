@@ -1,0 +1,22 @@
+{
+    "nossoProduto" : {
+        "title" : "Nosso Produto",
+        "text" : "Desenvolvemos a cultura coorporativa por meio da conscientização de colaboradores com uma abordagem inovadora Ajudamos   a   atender  requisitos ESG (ambiental,social e governança), englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros",
+        "photos": [
+            {
+                "path": "./photos/nossoProdutoPhotos/imagem_1.png",
+                "alt": "Funcionário ao telefone."
+            },
+            {
+                "path": "./photos/nossoProdutoPhotos/imagem_2.png",
+                "alt": "Psicologa Organizacional falando."
+            }, {
+                "path": "./photos/nossoProdutoPhotos/imagem_3.png",
+                "alt": "Funcionário cansando em linha de produção."
+            }, {
+                "path": "./photos/nossoProdutoPhotos/imagem_4.png",
+                "alt": "Psicologa Organizacional falando."
+            }
+        ]
+    }
+}

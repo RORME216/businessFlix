@@ -1,5 +1,6 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
+import NossoProduto from "../components/section/pageSections/nossoProduto/nossoProduto";
 import Section from "../components/section/section";
 
 export default function Homepage() {
@@ -15,7 +16,7 @@ export default function Homepage() {
         <main>
             <Navbar />
 
-            <Section childComponent={<p>Teste</p>} backgroundColor={cor_azul_escuro_medio}/>
+            <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_escuro_medio}/>
 
 
             <Footer />

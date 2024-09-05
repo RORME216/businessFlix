@@ -1,0 +1,11 @@
+.nosso-produto-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 10px;
+}
+
+img {
+    height: 160px;
+    width: 290px;
+}
