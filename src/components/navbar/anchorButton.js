@@ -4,6 +4,8 @@ export default function AnchorButton({text, htmlID}) {
     const href = "#"+htmlID;
 
     return (
-        <a className="anchor-button" href={href}>{text}</a>
+        <div className="anchor-button">
+            <a href={href}>{text}</a>
+        </div>
     );
 }
