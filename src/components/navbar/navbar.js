@@ -4,7 +4,7 @@ import './navbarStyle.css'
 
 export default function Navbar() {
     return (
-        <div className="navbar-container">
+        <header className="navbar-container">
             <BusinessFlixLogo />
             <div className="navbar-anchor-buttons">
 
@@ -13,6 +13,6 @@ export default function Navbar() {
                 <AnchorButton text={"Contato"} htmlID={"contato"}/>
                 
             </div>
-        </div>
+        </header>
     );
 }

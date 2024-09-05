@@ -12,13 +12,13 @@ export default function Homepage() {
 
 
     return(
-        <div>
+        <main>
             <Navbar />
 
             <Section childComponent={<p>Teste</p>} backgroundColor={cor_azul_escuro_medio}/>
 
 
             <Footer />
-        </div>
+        </main>
     );
 }
