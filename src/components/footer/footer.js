@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-lower-part">
-                <p>&copy; 2024 Business Flix | Design por Eduardo Duarte</p>
+                <p>&copy; 2024 Business Flix</p>
             </div>
         </footer>
     );
