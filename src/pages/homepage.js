@@ -16,7 +16,7 @@ export default function Homepage() {
         <main>
             <Navbar />
 
-            <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_escuro_medio}/>
+            <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro}/>
 
 
             <Footer />
