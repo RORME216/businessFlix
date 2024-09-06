@@ -2,6 +2,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import "./footerStyle.css"
 import BusinessFlixLogo from "../navbar/logo/logo";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -10,8 +11,9 @@ export default function Footer() {
                 <div className="infos">
                     <div className="icons-container">
 
-                        <a><MdOutlineEmail className="icon-link" color="white"/></a>
-                        <a><FaWhatsapp className="icon-link" color="white"/></a>
+                        <a href="https://www.gmail.com"><MdOutlineEmail className="icon-link" color="white"/></a>
+                        <a href="https://www.whatsapp.com"><FaWhatsapp className="icon-link" color="white"/></a>
+                       {/* <a href="mailto:email@provedor.com.br?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente">Enviar email</a> */}
                     </div>
                     <div className="organization-infos">
                         <p className="info-text">R. Padre Teixeira, 2670 - Jardim Bethania</p>
