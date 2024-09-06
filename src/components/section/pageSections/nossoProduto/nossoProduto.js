@@ -35,7 +35,10 @@ export default function NossoProduto() {
                             <img src={photo.path} alt={photo.alt} />
                         ))}
                     </div>
-                    <p className="nosso-produto-text">{nossoProduto.text}</p>
+                    <div className="nosso-produto-text">
+                        <p><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
+                        <p>Ajudamos   a   <b>atender  requisitos ESG (ambiental,social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                    </div>
                 </div>
             </article>
         );

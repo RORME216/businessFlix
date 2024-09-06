@@ -15,7 +15,7 @@
     font-weight: 800;
     line-height: 93.52px;
     text-align: center;
-    color: var(--cor-azul__escuro);
+    color: #002060;
 }
 
 .nosso-produto-images {
@@ -32,7 +32,7 @@
     font-weight: 400;
     line-height: 35.07px;
     text-align: left;
-    color: var(--cor-azul__escuro);
+    color: #002060;
 }
 
 img {
