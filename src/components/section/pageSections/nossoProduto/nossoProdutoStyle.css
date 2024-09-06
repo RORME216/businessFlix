@@ -32,6 +32,7 @@
     font-weight: 400;
     line-height: 35.07px;
     text-align: left;
+    color: var(--cor-azul__escuro);
 }
 
 img {
