@@ -27,7 +27,7 @@ export default function NossoProduto() {
     console.log(photos)
     if(photos)
         return(
-            <article className="nosso-produto-container">
+            <article className="nosso-produto-container" id="produto">
                 <h2 className="nosso-produto-title">{nossoProduto.title}</h2>
                 <div className="nosso-produto-content">
                     <div className="nosso-produto-images">
