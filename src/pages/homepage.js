@@ -1,6 +1,7 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
 import NossoProduto from "../components/section/pageSections/nossoProduto/nossoProduto";
+import OQueFazemos from "../components/section/pageSections/oqueFazemos/oQueFazemos";
 import Section from "../components/section/section";
 
 export default function Homepage() {
@@ -16,7 +17,8 @@ export default function Homepage() {
         <main>
             <Navbar />
 
-            <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro}/>
+                <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro}/>
+                <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro}/>
 
 
             <Footer />
