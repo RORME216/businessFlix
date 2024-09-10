@@ -44,6 +44,13 @@
     font-weight: 400;
     line-height: normal;
     background-color: #3FFF25;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.contato__button:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
 }
 
 a {
