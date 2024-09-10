@@ -11,35 +11,35 @@ export default function Beneficios() {
 
     const beneficios = [
         {
-            icon: <FaArrowRotateRight />,
+            icon: <FaArrowRotateRight className="beneficio-banner__icon" />,
             text: "Treinamento contínuo de colaboradores em quaisquer temas"
         }, 
         {
-            icon: <IoShieldCheckmarkOutline />,
+            icon: <IoShieldCheckmarkOutline className="beneficio-banner__icon" />,
             text: "Redução do risco de escândalos e problemas com Compliance"
         }, 
         {
-            icon: <FaAward />,
+            icon: <FaAward className="beneficio-banner__icon" />,
             text: "Branding positivo, mostrando compromisso com uma boa governança"
         },
         {
-            icon: <FaRegPaperPlane  />,
+            icon: <FaRegPaperPlane  className="beneficio-banner__icon" />,
             text: "Envio flexível, via WhatsApp, E-mail ou qualquer outro meio escolhido"
         },
         {
-            icon: <FaMoneyBillTrendUp  />,
+            icon: <FaMoneyBillTrendUp  className="beneficio-banner__icon" />,
             text: "Benefícios Baixo investimento e alto retorno"
         },
         {
-            icon: <FaRegHandshake  />,
+            icon: <FaRegHandshake  className="beneficio-banner__icon" />,
             text: "Suporte em transições, implementações ou mudanças estruturais"
         },
         {
-            icon: <IoWarningOutline />,
+            icon: <IoWarningOutline className="beneficio-banner__icon" />,
             text: "Temas pertinentes e atuais em vídeos inovadores"
         },
         {
-            icon: <BsEmojiSunglasses />,
+            icon: <BsEmojiSunglasses className="beneficio-banner__icon" />,
             text: "Adaptado para novas gerações"
         },
 
