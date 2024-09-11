@@ -32,7 +32,7 @@ export default function NossoProduto() {
                 <div className="nosso-produto-content">
                     <div className="nosso-produto-images">
                         {photos.map((photo) => (
-                            <img src={photo.path} alt={photo.alt} />
+                            <img className="nosso-produto__imagem" src={photo.path} alt={photo.alt} />
                         ))}
                     </div>
                     <div className="nosso-produto-text">

@@ -1,0 +1,27 @@
+.nossos-parceiros__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nossos-parceiros__title {
+    font-family: 'Karla';
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 93.52px;
+    text-align: center;
+    color: #002060;
+}
+
+.nossos-parceiros__caroussel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px
+}
+
+.nossos-parceiros__imgem {
+    max-width: 200px;
+    max-height: 200px;
+}

@@ -1,5 +1,6 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
+import NossosParceiros from "../components/section/pageSections/nossosParceiros/nossosParceiros";
 import Beneficios from "../components/section/pageSections/beneficios/beneficios";
 import Contato from "../components/section/pageSections/contato/contato";
 import NossoProduto from "../components/section/pageSections/nossoProduto/nossoProduto";
@@ -23,7 +24,7 @@ export default function Homepage() {
                 <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro}/>
                 <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro}/>
                 <Section childComponent={<Beneficios />} backgroundColor={cor_azul_escuro}/>
-
+                <Section childComponent={<NossosParceiros />} backgroundColor={cor_azul_claro} />
 
             <Footer />
         </main>
