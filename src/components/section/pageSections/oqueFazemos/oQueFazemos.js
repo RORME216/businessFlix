@@ -1,5 +1,5 @@
 import "./oQueFazemosStyle.css"
-import Carossel from "./subComponent/carossel/carossel";
+import Carossel from "./../../../carousel/carossel";
 
 const data = [
     {

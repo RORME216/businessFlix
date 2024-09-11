@@ -4,11 +4,12 @@
     justify-content: center;
     align-items: center;
     height: min-content;
+    overflow: hidden;
 }
 
 .oque-fazemos_title{
     font-family: Karla;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 800;
     line-height: 93.52px;
     text-align: center;
