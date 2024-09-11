@@ -1,9 +1,31 @@
-a{ 
-    color: white;
-    text-decoration: inherit;
-}
-
 .anchor-button{
     font-size: 24px;
-    padding: 10px, 40px, 10px, 40px;
+    color: white;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.anchor-button:hover{
+    color: black;
+    background-color: white;
+    text-decoration: inherit;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+a {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.button {
+    padding:10px 20px 10px 20px;
 }

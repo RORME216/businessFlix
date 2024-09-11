@@ -5,14 +5,18 @@ import './navbarStyle.css'
 export default function Navbar() {
     return (
         <header className="navbar-container">
-            <BusinessFlixLogo />
-            <div className="navbar-anchor-buttons">
+            <div className="navbar-wraper">
+                <BusinessFlixLogo />
+                <div className="navbar-anchor-buttons">
 
-                <AnchorButton text={"Sobre Nós"} htmlID={""}/>
-                <AnchorButton text={"Produto"} htmlID={"produto"}/>
-                <AnchorButton text={"Contato"} htmlID={"contato"}/>
-                
+                    <AnchorButton text={"Produto"} htmlID={"produto"}/>
+                    <AnchorButton text={"Contato"} htmlID={"contato"}/>
+                    <AnchorButton text={"Benefícios"} htmlID={"beneficios"}/>
+                    <AnchorButton text={"Nossos Parceiros"} htmlID={"nossosParceiros"}/>
+                    
+                </div>
             </div>
+            
         </header>
     );
 }

@@ -1,7 +1,14 @@
 .navbar-container{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.navbar-wraper {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.95);
     color: white;
     padding: 20px 40px 20px 40px;
 }
@@ -9,5 +16,5 @@
 .navbar-anchor-buttons{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 15px;
 }
