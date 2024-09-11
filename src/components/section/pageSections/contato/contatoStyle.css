@@ -9,8 +9,9 @@
 
 .contato__content {
     border: 6px solid black;
+    color: white;
     border-radius: 20px;
-    background-color: #DEEBF7;
+    background-color: #000c23;
     padding-left: 150px;
     padding-right: 150px;
     height: 100%;
