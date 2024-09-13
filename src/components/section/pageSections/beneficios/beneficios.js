@@ -46,7 +46,7 @@ export default function Beneficios() {
     ]
 
     return(
-        <section className="beneficios__container" id="beneficios">
+        <section className="beneficios__container">
             <h2 className="beneficios__title">Benefícios</h2>
             <div className="beneficios__content">
                 {beneficios.map( beneficio => 

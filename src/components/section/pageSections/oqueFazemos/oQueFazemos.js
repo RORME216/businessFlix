@@ -32,7 +32,7 @@ const data = [
 
 export default function OQueFazemos() {
     return(
-        <section className="oque-fazemos_container" id="oQueFazemos">
+        <section className="oque-fazemos_container">
             <h2 className="oque-fazemos_title">Fazemos videos que...</h2>
             <div className="oque-fazemos_content">
                 <Carossel>

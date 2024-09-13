@@ -30,7 +30,7 @@ export default function NossosParceiros() {
 
 
     return (
-        <section className="nossos-parceiros__container" id="nossosParceiros">
+        <section className="nossos-parceiros__container">
             <h2 className="nossos-parceiros__title">Parceiros</h2>
             <div className="nossos-parceiros__caroussel">
                 <Carossel>
