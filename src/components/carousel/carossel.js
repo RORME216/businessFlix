@@ -4,7 +4,7 @@ import { useMeasure } from "@uidotdev/usehooks";
 import { animate, useMotionValue, motion } from "framer-motion";
 import { useEffect } from "react";
 
-export default function Carossel({content}) {
+export default function Carossel({children}) {
 
     let [ref, {width}] = useMeasure();
 
@@ -30,9 +30,7 @@ export default function Carossel({content}) {
         <div className="carousel">
             <div className="carousel__container">
                 <motion.div className="carousel__itens" ref={ref} style={{x: xTranslation}}>
-                    {[...content,...content].map((item) => (
-                        <BenefitsCard data={item} />
-                    ))}
+                   {children}
                 </motion.div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import "./oQueFazemosStyle.css"
 import Carossel from "./../../../carousel/carossel";
+import BenefitsCard from "./subComponent/benefitsCard/benefitsCard";
 
 const data = [
     {
@@ -34,7 +35,11 @@ export default function OQueFazemos() {
         <section className="oque-fazemos_container" id="oQueFazemos">
             <h2 className="oque-fazemos_title">Fazemos videos que...</h2>
             <div className="oque-fazemos_content">
-                <Carossel content={data}/>
+                <Carossel>
+                    {[...data,...data].map((item) => (
+                        <BenefitsCard data={item} />
+                    ))}
+                </Carossel>
             </div>
         </section>
     );
