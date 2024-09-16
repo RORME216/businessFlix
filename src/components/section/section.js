@@ -1,4 +1,3 @@
-import { color } from "chart.js/helpers";
 import "./sectionStyle.css"
 
 export default function Section({childComponent, backgroundColor, sectionId}) {
