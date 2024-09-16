@@ -5,15 +5,15 @@ import BenefitsCard from "./subComponent/benefitsCard/benefitsCard";
 const data = [
     {
         photo: "/photos/carossel/construction_team.png",
-        text: "ficam na memória"
+        text: "são entendimentos facilmente"
     },
     {
         photo: "/photos/carossel/engineer_phone_user.png",
-        text: "ficam na memória"
+        text: "são simples de compartilhar"
     },
     {
         photo: "/photos/carossel/phone_user.png",
-        text: "ficam na memória"
+        text: "simplesmente engajam"
     },
     {
         photo: "/photos/carossel/group_study.png",
@@ -21,11 +21,11 @@ const data = [
     },
     {
         photo: "/photos/carossel/team_working.png",
-        text: "ficam na memória"
+        text: "mudam comportamento"
     },
     {
         photo: "/photos/carossel/medical_team.png",
-        text: "ficam na memória"
+        text: "melhoram ambientes"
     },
 ]
 
