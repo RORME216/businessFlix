@@ -1,4 +1,4 @@
-import Carossel from "../../../carousel/carossel";
+import Carossel from "../../../carousel/carousel";
 import "./nossosParceirosStyle.css"
 import LogoParceiro from "./subComponents/logoParceiro";
 
@@ -33,8 +33,8 @@ export default function NossosParceiros() {
         <section className="nossos-parceiros__container">
             <h2 className="nossos-parceiros__title">Parceiros</h2>
             <div className="nossos-parceiros__caroussel">
-                <Carossel>
-                    {[...logos,...logos].map((item) => (
+                <Carossel duration={120}>
+                    {[...logos,...logos,...logos,...logos].map((item) => (
                         <LogoParceiro path={item.path} descricao={item.alt} />
                     ))}
                 </Carossel>

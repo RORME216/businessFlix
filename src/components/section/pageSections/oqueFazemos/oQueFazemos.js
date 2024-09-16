@@ -1,5 +1,5 @@
 import "./oQueFazemosStyle.css"
-import Carossel from "./../../../carousel/carossel";
+import Carossel from "../../../carousel/carousel";
 import BenefitsCard from "./subComponent/benefitsCard/benefitsCard";
 
 const data = [
@@ -35,8 +35,8 @@ export default function OQueFazemos() {
         <section className="oque-fazemos_container">
             <h2 className="oque-fazemos_title">Fazemos videos que...</h2>
             <div className="oque-fazemos_content">
-                <Carossel>
-                    {[...data,...data].map((item) => (
+                <Carossel duration={"60"}>
+                    {[...data,...data,...data,...data].map((item) => (
                         <BenefitsCard data={item} />
                     ))}
                 </Carossel>
