@@ -16,8 +16,7 @@ export default function Footer() {
                        {/* <a href="mailto:email@provedor.com.br?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente">Enviar email</a> */}
                     </div>
                     <div className="organization-infos">
-                        <p className="info-text">R. Padre Teixeira, 2670 - Jardim Bethania</p>
-                        <p className="info-text">São Carlos - SP, 13560-210</p>
+                        <p className="info-text">São Carlos - Capital da Tecnologia</p>
                     </div>
                 </div>
                 <div className="Logo">
