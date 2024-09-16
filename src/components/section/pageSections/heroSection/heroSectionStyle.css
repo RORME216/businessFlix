@@ -33,20 +33,14 @@
 
 .hero-section_phone-frame {
     max-width: 1000px;
-    max-height: 400px;
-    transition: transform 0.5s ease;
-}
-
-.hero-section_phone-frame:hover {
-    transition: transform 0.5s ease;
-    transform: scale(1.2);
+    max-height: 480px;
 }
 
 .hero-section__header-call {
-    width: 30%;  
+    width: 40%;  
     color: var(--dark-blue, #002060);
     font-family: Lato;
-    font-size: 40px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
