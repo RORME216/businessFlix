@@ -5,13 +5,16 @@ import BusinessFlixLogo from "../navbar/logo/logo";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+
+    const ano = new Date().getFullYear();
+
     return (
         <footer className="footer-container">
             <div className="footer-upper-part">
                 <div className="infos">
                     <div className="icons-container">
 
-                        <a href="https://www.gmail.com"><MdOutlineEmail className="icon-link" color="white"/></a>
+                        <a href="mailto:robertoramonmendonca@gmail.com"><MdOutlineEmail className="icon-link" color="white"/></a>
                         <a href="https://www.whatsapp.com"><FaWhatsapp className="icon-link" color="white"/></a>
                        {/* <a href="mailto:email@provedor.com.br?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente">Enviar email</a> */}
                     </div>
@@ -24,7 +27,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-lower-part">
-                <p>&copy; 2024 Business Flix</p>
+                <p>&copy; {ano} Business Flix. Todos os direitos reservados.</p>
             </div>
         </footer>
     );
