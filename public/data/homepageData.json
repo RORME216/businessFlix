@@ -5,7 +5,7 @@
         "photos": [
             {
                 "path": "./photos/nossoProdutoPhotos/imagem_1.png",
-                "alt": "Funcionário ao telefone."
+                "alt": "Funcionário estressado ao telefone."
             },
             {
                 "path": "./photos/nossoProdutoPhotos/imagem_2.png",
@@ -15,7 +15,7 @@
                 "alt": "Funcionário cansando em linha de produção."
             }, {
                 "path": "./photos/nossoProdutoPhotos/imagem_4.png",
-                "alt": "Psicologa Organizacional falando."
+                "alt": "Nutricionista especialista em fisiologia do exercício falando."
             }
         ]
     }
