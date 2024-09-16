@@ -1,8 +1,8 @@
 .beneficio-banner__container {
     display: flex;
-    width: 350px;
-    margin: 20px;
-    gap: 20px;
+    width: 326px;
+    margin: 8px;
+    gap: 16px;
     transition: transform 0.5s ease;
 }
 
@@ -12,8 +12,8 @@
 }
 
 .beneficio-banner__icon {
-    min-width: 40px;
-    min-height: 40px;
+    min-width: 32px;
+    min-height: 32px;
     color: white;
 }
 
