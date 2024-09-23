@@ -46,13 +46,13 @@ export default function Beneficios() {
     ]
 
     return(
-        <section className="beneficios__container">
+        <div className="beneficios__container">
             <h2 className="beneficios__title">Benefícios</h2>
             <div className="beneficios__content">
                 {beneficios.map( beneficio => 
                     <BeneficioBanner icon={beneficio.icon}  text={beneficio.text} />
                 )}
             </div>
-        </section>
+        </div>
     );
 }
