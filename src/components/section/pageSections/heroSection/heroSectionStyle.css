@@ -1,7 +1,52 @@
 
 /* Smartphones (retratos) */
 @media (max-width: 360px) {
-    /* Estilos específicos para smartphones em retrato */
+    .hero-section__container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    
+    .hero-section__background {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        background-color: #0020604f;
+    }
+    
+    .hero-section__background-image {
+        height: 100vh;
+        filter: blur(10px) grayscale(0.5);
+    }
+    
+    .hero-section__content {
+        z-index: 2;
+        position: absolute;
+        top: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero-section_phone-frame {
+        width: 0px;
+        max-height: 480px;
+    }
+    .hero-section__header-call {
+        width: 90vw;  
+        color: white;
+        font-family: Lato;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 }
 
 
@@ -268,7 +313,7 @@
 }
 
 /* Monitores desktop */
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media (min-width: 1367px) {
     .section__container {
         display: flex;
         position: relative;

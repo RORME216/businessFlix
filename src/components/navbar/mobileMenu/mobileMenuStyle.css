@@ -1,0 +1,17 @@
+.mobile-menu__icon {
+    width: 12vw;
+    height: 12vw;
+}
+
+.mobile-menu__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navbar-anchor-buttons__mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
