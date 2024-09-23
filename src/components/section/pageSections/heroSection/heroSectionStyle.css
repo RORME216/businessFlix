@@ -224,7 +224,7 @@
     }
     
     .hero-section__background-image {
-        width: 100%;
+        height: 800px;
         filter: blur(5px) grayscale(0.5);
     }
     
@@ -270,6 +270,8 @@
         position: absolute;
         z-index: 1;
         width: 100%;
+        
+        margin-top: 53px;
         height: 800px;
         background-color: #00206044;
     }
