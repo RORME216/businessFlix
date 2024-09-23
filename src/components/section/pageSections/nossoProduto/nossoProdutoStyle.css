@@ -163,7 +163,7 @@
     .nosso-produto-text {
         width: auto;
         padding: 0px 24px;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 400;
         line-height: 35px;
         text-align:start;
@@ -202,10 +202,9 @@
     }
 
     .nosso-produto-text {
-        width: 400px;
-        font-size: 2rem;
+        width: 600px;
+        font-size: 1.5rem;
         font-weight: 400;
-        line-height: 35.07px;
     }
 
     .nosso-produto__imagens-container {
@@ -216,8 +215,8 @@
     }
 
     .nosso-produto__imagem {
-        height: 140px;
-        width: 252px;
+        height: 160px;
+        width: 290px;
     }
 }
 /* Monitores desktop */
@@ -235,14 +234,12 @@
         width: auto;
         display: flex;
         justify-content: space-between;
-        align-items: center;
     }
 
     .nosso-produto-text {
-        width: 400px;
-        font-size: rem;
+        width: 600px;
+        font-size: 1.5rem;
         font-weight: 400;
-        line-height: 35.07px;
     }
 
     .nosso-produto__imagens-container {
@@ -253,8 +250,8 @@
     }
 
     .nosso-produto__imagem {
-        height: 140px;
-        width: 252px;
+        height: 160px;
+        width: 290px;
     }
 }
 
