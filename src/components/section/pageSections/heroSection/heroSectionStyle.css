@@ -16,12 +16,12 @@
         z-index: 1;
         width: 100%;
         height: 100vh;
-        background-color: #0020604f;
+        background-color: #00206039;
     }
     
     .hero-section__background-image {
         height: 100vh;
-        filter: blur(10px) grayscale(0.5);
+        filter: blur(3px) grayscale(0.3);
     }
     
     .hero-section__content {
@@ -49,8 +49,6 @@
     }
 }
 
-
-
 @media (min-width: 361px) and (max-width: 522px) {
     .hero-section__container {
         display: flex;
@@ -67,12 +65,12 @@
         z-index: 1;
         width: 100%;
         height: 100vh;
-        background-color: #0020604f;
+        background-color: #00206039;
     }
     
     .hero-section__background-image {
         height: 100vh;
-        filter: blur(10px) grayscale(0.5);
+        filter: blur(3px) grayscale(0.3);
     }
     
     .hero-section__content {
@@ -117,12 +115,12 @@
         z-index: 1;
         width: 100%;
         height: 100vh;
-        background-color: #00206044;
+        background-color: #00206039;
     }
     
     .hero-section__background-image {
         height: 100vh;
-        filter: blur(5px) grayscale(0.5);
+        filter: blur(3px) grayscale(0.3);
     }
     
     .hero-section__content {
@@ -171,12 +169,12 @@
         z-index: 1;
         width: 100%;
         height: 100vh;
-        background-color: #00206044;
+        background-color: #00206039;
     }
     
     .hero-section__background-image {
         height: 100vh;
-        filter: blur(5px) grayscale(0.5);
+        filter: blur(3px) grayscale(0.3);
     }
     
     .hero-section__content {
@@ -227,7 +225,6 @@
     
     .hero-section__background-image {
         width: 100%;
-        height: 800px;
         filter: blur(5px) grayscale(0.5);
     }
     
@@ -279,7 +276,6 @@
     
     .hero-section__background-image {
         width: 100%;
-        height: 800px;
         filter: blur(5px) grayscale(0.5);
     }
     
@@ -331,7 +327,6 @@
     
     .hero-section__background-image {
         width: 100%;
-        height: 800px;
         filter: blur(5px) grayscale(0.5);
     }
     
