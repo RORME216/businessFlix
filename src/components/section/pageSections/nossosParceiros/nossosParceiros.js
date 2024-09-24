@@ -32,7 +32,7 @@ export default function NossosParceiros() {
 
 
     return (
-        <section className="nossos-parceiros__container">
+        <article className="nossos-parceiros__container">
             <h2 className="nossos-parceiros__title">Parceiros</h2>
             
                 { screenWidth >= 1025 ?
@@ -51,6 +51,6 @@ export default function NossosParceiros() {
                     </div>
                 }
             
-        </section>
+        </article>
     );
 }

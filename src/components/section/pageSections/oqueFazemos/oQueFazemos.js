@@ -48,7 +48,7 @@ const screenWidth = window.innerWidth
 
 export default function OQueFazemos() {
     return(
-        <section className="oque-fazemos_container">
+        <article className="oque-fazemos_container">
             <h2 className="oque-fazemos_title">Fazemos videos que...</h2>
             <div className="oque-fazemos_content">
                 {screenWidth > 1024 ?
@@ -68,6 +68,6 @@ export default function OQueFazemos() {
                     </>
                 }
             </div>
-        </section>
+        </article>
     );
 }

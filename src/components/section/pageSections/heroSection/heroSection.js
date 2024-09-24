@@ -2,7 +2,7 @@ import "./heroSectionStyle.css"
 
 export default function HeroSection() {
     return (
-        <section className="hero-section__container">
+        <article className="hero-section__container">
             <div className="hero-section__background"></div>
             <img className="hero-section__background-image" src="/photos/heroSection/foto_01.jpg"/>
 
@@ -10,6 +10,6 @@ export default function HeroSection() {
                 <img className="hero-section_phone-frame" src="/photos/heroSection/cellPhone.png" />
                 <h2 className="hero-section__header-call">Comunicação inovadora que transformar</h2>
             </div>
-        </section>
+        </article>
     );
 }
