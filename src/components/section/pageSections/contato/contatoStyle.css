@@ -43,7 +43,7 @@
     font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     background-color: #3FFF25;
     cursor: pointer;
@@ -66,3 +66,133 @@ a {
     margin-left: -100px;
     border: 6px solid black;
 }
+
+
+/* Smartphones (retratos e paisagem) */
+
+@media (max-width: 640px) {
+    .contato__container {
+        border: 0px solid rgba(0, 0, 0, 0);
+        position: relative;
+        width: 100%;
+        height: min-content;
+        margin: 0px;
+    }
+    
+    .contato__content {
+        position: absolute;
+        top: 0;
+        border: 0px solid rgba(0, 0, 0, 0);
+        color: white;
+        background-color: #0020608b;
+        height: 100%;
+        gap: 50px;
+        z-index: 1;
+    }
+    
+    .contato__title {
+        font-size: 48px;
+        margin-top: 50px;
+    }
+    
+    .contato__image {
+        width: 900px;
+        height: 390px;
+        border-radius: 0px;
+        margin-left: -100px;
+        filter: blur(1.2px);
+    }
+    
+}
+
+/* Smarthphones pequenos (retrato*/
+@media (max-width: 361px) {
+    .contato__title {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+}
+
+/* Tablets (retratos e paisagem) */
+@media (min-width: 641px)  and (max-width: 1024px) {
+    .contato__container {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        height: 260px;
+        margin: 32px;
+        border-radius: 30px;
+        width: 100%;
+        overflow: hidden;
+        border: 3px solid black;
+    }
+    
+    .contato__content {
+        position: absolute;
+        padding-left: 70px;
+        padding-right: 70px;
+        height: 100%;
+        left: 0;
+        border: 0px;
+        gap: 40px
+    }
+    
+    .contato__title {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px;
+    }
+    
+    .contato__button {
+        border-radius: 15px;
+        border: 3px solid black;
+        padding: 20px 40px 20px 40px;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: #3FFF25;
+        cursor: pointer;
+        transition: transform 0.5s ease;
+    }
+    
+    .contato__button:hover {
+        transition: transform 0.5s ease;
+        transform: scale(1.2);
+    }
+    
+    a {
+        color: black;
+    }
+    
+    .contato__image {
+        position: absolute;
+        right: -80px;
+        width: 600px;
+        height: 260px;
+        border-radius: 20px;
+        margin-left: -100px;
+        border: 6px solid black;
+    }
+    
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1367px) {}
+
+/* Monitores desktop */
+@media (min-width: 1367px) {}
+
+/* Monitores 4K */
+@media (min-width: 1921px) and (max-width: 3840px) {}
+
+/* Telas Ultra-wide */
+@media (min-width: 2560px) {}

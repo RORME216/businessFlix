@@ -25,7 +25,7 @@ export default function Homepage() {
                 <HeroSection />
                 <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}/>
                 <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro} sectionId={"oqueFazemos"}/>
-                <Section childComponent={<Contato />} backgroundColor={cor_azul_claro} sectionId={"contato"}/>
+                <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro} sectionId={"contato"}/>
                 <Section childComponent={<Beneficios />} backgroundColor={cor_azul_escuro} sectionId={"beneficios"}/>
                 <Section childComponent={<NossosParceiros />} backgroundColor={cor_azul_claro} sectionId={"nossosParceiros"}/>
             </main>
