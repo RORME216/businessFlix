@@ -6,3 +6,9 @@
     max-width: 280px;
     max-height: 150px;
 }
+
+@media (min-width: 1025px) {
+    .logo-parceiro__anchor{
+        padding: 0px 50px;
+    }
+}
