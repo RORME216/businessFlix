@@ -13,6 +13,14 @@
     color: #002060;
 }
 
+
+.d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
 .nossos-parceiros__caroussel {
     display: flex;
     justify-content: center;
@@ -20,19 +28,29 @@
     gap: 200px
 }
 
-.nossos-parceiros__imgem {
-    max-width: 200px;
-    max-height: 200px;
+.nossos-parceiros__imagens-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px
 }
 
 /* Smartphones (retratos) */
 @media (max-width: 360px) {
+    .nossos-parceiros__container {
+        width: 100%;
+    }
     .nossos-parceiros__title {
         font-size: 2.5rem;
     }
 }
 
 @media (min-width: 361px) and (max-width: 522px) {
+    .nossos-parceiros__container {
+        width: 100%;
+    }
     .nossos-parceiros__title {
         font-size: 2.5rem;
     }
@@ -40,6 +58,9 @@
 
 /* Smartphones (paisagem) */
 @media (min-width: 522px) and (max-width: 640px) {
+    .nossos-parceiros__container {
+        width: 100%;
+    }
     .nossos-parceiros__title {
         font-size: 2.5rem;
     }
@@ -47,6 +68,9 @@
 
 /* Tablets (retratos) */
 @media (min-width: 641px) and (max-width: 768px) {
+    .nossos-parceiros__container {
+        width: 100%;
+    }
     .nossos-parceiros__title {
         font-size: 2.5rem;
     }

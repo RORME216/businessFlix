@@ -4,6 +4,8 @@ import LogoParceiro from "./subComponents/logoParceiro";
 
 export default function NossosParceiros() {
 
+    const screenWidth = window.innerWidth;
+
     const logos = [
         {
             "link": "https://ebmac.com.br/novo/",
@@ -32,13 +34,23 @@ export default function NossosParceiros() {
     return (
         <section className="nossos-parceiros__container">
             <h2 className="nossos-parceiros__title">Parceiros</h2>
-            <div className="nossos-parceiros__caroussel">
-                <Carossel duration={120}>
-                    {[...logos,...logos,...logos,...logos].map((item) => (
-                        <LogoParceiro path={item.path} descricao={item.alt} />
-                    ))}
-                </Carossel>
-            </div>
+            
+                { screenWidth >= 1025 ?
+                    <div className="nossos-parceiros__caroussel">
+                        <Carossel duration={120}>
+                            {[...logos,...logos,...logos,...logos].map((item) => (
+                                <LogoParceiro path={item.path} descricao={item.alt} />
+                            ))}
+                        </Carossel>
+                    </div>
+                :
+                    <div className="nossos-parceiros__imagens-container">
+                        {logos.map((logo => (
+                            <LogoParceiro path={logo.path} descricao={logo.alt} />
+                        )))}
+                    </div>
+                }
+            
         </section>
     );
 }
