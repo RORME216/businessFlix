@@ -1,29 +1,82 @@
 .beneficio-banner__container {
     display: flex;
-    width: 326px;
+    align-items: center;
+    width: 386px;
     margin: 8px;
     gap: 16px;
-    transition: transform 0.5s ease;
-}
-
-.beneficio-banner__container:hover {
-    transition: transform 0.5s ease;
-    transform: scale(1.2);
 }
 
 .beneficio-banner__icon {
-    min-width: 32px;
-    min-height: 32px;
+    min-width: 40px;
+    min-height: 40px;
     color: white;
 }
 
 .beneficio-banner__text {
     color: #FFF;
     font-family: "Inria Sans";
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin: 0px;
     align-content: center;
+}
+
+@media (max-width: 780px) {
+    .beneficio-banner__container {
+        display: flex;
+        width: 100%;
+        margin: 8px;
+        gap: 16px;
+    }
+    
+    .beneficio-banner__icon {
+        min-width: 32px;
+        min-height: 32px;
+        color: white;
+    }
+    
+    .beneficio-banner__text {
+        color: #FFF;
+        font-family: "Inria Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px;
+        align-content: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .beneficio-banner__container {
+        display: flex;
+        width: 100%;
+        margin: 8px;
+        gap: 16px;
+        transition: transform 0.5s ease;
+    }
+    
+    .beneficio-banner__container:hover {
+        transition: transform 0.5s ease;
+        transform: scale(1.2);
+    }
+    
+    .beneficio-banner__icon {
+        min-width: 40px;
+        min-height: 40px;
+        color: white;
+    }
+    
+    .beneficio-banner__text {
+        color: #FFF;
+        font-family: "Inria Sans";
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px;
+        align-content: center;
+    }
 }

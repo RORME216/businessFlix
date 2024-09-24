@@ -24,11 +24,11 @@ export default function Beneficios() {
         },
         {
             icon: <FaRegPaperPlane  className="beneficio-banner__icon" />,
-            text: "Envio flexível, via WhatsApp, E-mail ou qualquer outro meio escolhido"
+            text: "Envio flexível, via WhatsApp, E-mail ou outro meio escolhido"
         },
         {
             icon: <FaMoneyBillTrendUp  className="beneficio-banner__icon" />,
-            text: "Benefícios Baixo investimento e alto retorno"
+            text: "Baixo investimento e alto retorno"
         },
         {
             icon: <FaRegHandshake  className="beneficio-banner__icon" />,

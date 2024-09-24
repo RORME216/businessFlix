@@ -77,9 +77,9 @@
 @media (min-width: 361px) and (max-width: 640px) {
 
     .nosso-produto__title {
-        font-size: 2.8rem;
+        font-size: 3rem;
         font-weight: 800;
-        color: blueviolet;
+        color: #002060;
         padding: 16x;
     }
 
@@ -151,7 +151,7 @@
 /* Tablets (paisagem) */
 @media (min-width: 769px) and (max-width: 1024px) {
     .nosso-produto__title {
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: 800;
         color: blueviolet;
         padding: 16x;
