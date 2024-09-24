@@ -1,6 +1,7 @@
 import Carossel from "../../../carousel/carousel";
 import "./nossoProdutoStyle.css"
 import { useEffect, useState } from "react";
+import SampleButton from "./subcomponents/sampleButton";
 
 export default function NossoProduto() {
     const [nossoProduto, setNossoProduto] = useState({});
@@ -30,9 +31,9 @@ export default function NossoProduto() {
     console.log(photos)
     if(photos)
         return(
-            <article className="nosso-produto-container">
-                <h2 className="nosso-produto-title">{nossoProduto.title}</h2>
-                <div className="nosso-produto-content">
+            <article className="nosso-produto__container">
+                <h2 className="nosso-produto__title">{nossoProduto.title}</h2>
+                <div className="nosso-produto__content">
                     {screenWidth > 1024 ? 
                         <>
                             <div className="nosso-produto__imagens-container">
@@ -52,15 +53,15 @@ export default function NossoProduto() {
 
                                 
                             </div>
-                            <div>
-                                <p className="nosso-produto-text"><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
-                                <p className="nosso-produto-text">Ajudamos   a   <b>atender  requisitos ESG (ambiental,social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                            <div className="nosso-produto__text-container">
+                                <p className="nosso-produto__text"><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
+                                <p className="nosso-produto__text">Ajudamos   a   <b>atender  requisitos ESG (ambiental,social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                                <SampleButton />
                             </div>
                         </>
                         :
                         <>
-                            <p className="nosso-produto-text"><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
-
+                            <p className="nosso-produto__text"><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
                             <div className="nosso-produto__imagens-container">
                                 {screenWidth > 640 ? 
                                     <>
@@ -79,7 +80,8 @@ export default function NossoProduto() {
                                 
                             </div>
 
-                            <p className="nosso-produto-text">Ajudamos   a   <b>atender  requisitos ESG (ambiental,social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                            <p className="nosso-produto__text">Ajudamos   a   <b>atender  requisitos ESG (ambiental,social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                            <SampleButton />
                         </>
                     }
 
