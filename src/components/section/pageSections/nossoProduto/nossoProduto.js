@@ -55,7 +55,7 @@ export default function NossoProduto() {
                             </div>
                             <div className="nosso-produto__text-container">
                                 <p className="nosso-produto__text"><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
-                                <p className="nosso-produto__text">Ajudamos   a   <b>atender  requisitos ESG (ambiental,social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                                <p className="nosso-produto__text">Ajudamos   a   <b>atender  requisitos ESG (ambiental, social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
                                 <SampleButton />
                             </div>
                         </>

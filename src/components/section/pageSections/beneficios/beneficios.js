@@ -20,15 +20,15 @@ export default function Beneficios() {
         }, 
         {
             icon: <FaAward className="beneficio-banner__icon" />,
-            text: "Branding positivo, mostrando compromisso com uma boa governança"
+            text: "Branding positivo, mostrando compromisso com boa governança"
         },
         {
             icon: <FaRegPaperPlane  className="beneficio-banner__icon" />,
-            text: "Envio flexível, via WhatsApp, E-mail ou outro meio escolhido"
+            text: "Envio flexível via WhatsApp, E-mail ou outro meio escolhido"
         },
         {
             icon: <FaMoneyBillTrendUp  className="beneficio-banner__icon" />,
-            text: "Baixo investimento e alto retorno"
+            text: "Alto retorno com baixo investimento"
         },
         {
             icon: <FaRegHandshake  className="beneficio-banner__icon" />,
@@ -36,11 +36,11 @@ export default function Beneficios() {
         },
         {
             icon: <IoWarningOutline className="beneficio-banner__icon" />,
-            text: "Temas pertinentes e atuais em vídeos inovadores"
+            text: "Temas pertinentes e atuais em formato inovador"
         },
         {
             icon: <BsEmojiSunglasses className="beneficio-banner__icon" />,
-            text: "Adaptado para novas gerações"
+            text: "Adaptado às novas gerações"
         },
 
     ]

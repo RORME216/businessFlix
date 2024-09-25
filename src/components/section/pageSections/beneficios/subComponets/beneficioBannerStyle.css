@@ -52,7 +52,6 @@
 @media (min-width: 1024px) {
     .beneficio-banner__container {
         display: flex;
-        width: 100%;
         margin: 8px;
         gap: 16px;
         transition: transform 0.5s ease;
