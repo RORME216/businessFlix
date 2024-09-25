@@ -1,6 +1,6 @@
 /* Smartphones (retratos) */
 @media (max-width: 360px) {
-    .hero-hero-section__container {
+    .hero-section__container {
         display: flex;
         position: relative;
         justify-content: center;
@@ -20,7 +20,7 @@
     
     .hero-section__background-image {
         height: 100vh;
-        filter: blur(3px) grayscale(0.3);
+        filter: blur(5px) grayscale(0.7);
     }
     
     .hero-section__content {
@@ -49,7 +49,7 @@
 }
 
 @media (min-width: 361px) and (max-width: 522px) {
-    .hero-hero-section__container {
+    .hero-section__container {
         display: flex;
         position: relative;
         justify-content: center;
@@ -69,7 +69,7 @@
     
     .hero-section__background-image {
         height: 100vh;
-        filter: blur(3px) grayscale(0.3);
+        filter: blur(5px) grayscale(0.7);
     }
     
     .hero-section__content {
@@ -99,7 +99,7 @@
 
 /* Smartphones (paisagem) */
 @media (min-width: 522px) and (max-width: 640px) {
-    .hero-hero-section__container {
+    .hero-section__container {
         display: flex;
         position: relative;
         justify-content: center;
@@ -119,7 +119,7 @@
     
     .hero-section__background-image {
         height: 100vh;
-        filter: blur(3px) grayscale(0.3);
+        filter: blur(5px) grayscale(0.7);
     }
     
     .hero-section__content {
@@ -153,13 +153,11 @@
 
 /* Tablets (retratos) */
 @media (min-width: 641px) and (max-width: 768px) {
-    .hero-hero-section__container {
+    .hero-section__container {
         display: flex;
         position: relative;
         justify-content: center;
         align-items: center;
-        height: 100vh;
-        width: 100vw;
         overflow: hidden;
     }
     
@@ -167,19 +165,20 @@
         position: absolute;
         z-index: 1;
         width: 100%;
-        height: 100vh;
-        background-color: #00206039;
+        height: 800px;
+        background-color: #00206044;
     }
     
     .hero-section__background-image {
-        height: 100vh;
-        filter: blur(3px) grayscale(0.3);
+        margin-left: 380px;
+        height: 800px;
+        filter: blur(5px) grayscale(0.7);
     }
     
     .hero-section__content {
         z-index: 2;
         position: absolute;
-        top: 40vh;
+        top: 350px;
         background-color: rgba(255, 255, 255, 0.5);
         width: 100%;
         height: 150px;
@@ -189,7 +188,7 @@
     }
     
     .hero-section_phone-frame {
-        width: 0px;
+        width: 38.5%;
         max-height: 480px;
     }
     
@@ -226,7 +225,7 @@
     .hero-section__background-image {
         margin-left: 380px;
         height: 800px;
-        filter: blur(5px) grayscale(0.5);
+        filter: blur(5px) grayscale(0.7);
     }
     
     .hero-section__content {
