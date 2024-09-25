@@ -4,15 +4,16 @@
     justify-content: center;
     border-radius: 20px;
     height: 260px;
-    margin: 100px 50px 50px 50px;
+    margin:  0px 50px;
     border-radius: 30px;
 }
 
 .contato__content {
-    border: 6px solid black;
+    border: 6px solid #000919;
     color: white;
-    border-radius: 20px;
-    background-color: #000c23;
+    border-radius: 20px ;
+    background-color: #DEEBF7;
+    color: black;
     padding-left: 150px;
     padding-right: 150px;
     height: 100%;
@@ -64,7 +65,7 @@ a {
     height: 260px;
     border-radius: 20px;
     margin-left: -100px;
-    border: 6px solid black;
+    border: 6px solid #000919;
 }
 
 
@@ -84,7 +85,6 @@ a {
         top: 0;
         border: 0px solid rgba(0, 0, 0, 0);
         color: white;
-        background-color: #0020608b;
         height: 100%;
         gap: 50px;
         z-index: 1;
@@ -135,7 +135,8 @@ a {
         padding-right: 70px;
         height: 100%;
         left: 0;
-        border: 0px;
+        border: 3px solid #000919;
+
         gap: 40px
     }
     
@@ -179,8 +180,8 @@ a {
         width: 600px;
         height: 260px;
         border-radius: 20px;
-        margin-left: -100px;
-        border: 6px solid black;
+        margin-right: -50px;
+        border: 6px solid #000919;
     }
     
 }
