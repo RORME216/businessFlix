@@ -24,18 +24,18 @@ export default function Navbar() {
         <header className="navbar-container">
             <div className="navbar-wraper">
                 <BusinessFlixLogo className="logo" />
-
-                {windowWidth <= 1025 ?
-                <MobileMenu />
-                :
-                <div className="navbar-anchor-buttons">
-                    <AnchorButton text={"Produto"} htmlID={"produto"}/>
-                    <AnchorButton text={"Contato"} htmlID={"contato"}/>
-                    <AnchorButton text={"Benefícios"} htmlID={"beneficios"}/>
-                    <AnchorButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
-                </div>
-                }
-                
+                <nav>
+                    {windowWidth <= 1025 ?
+                        <MobileMenu />
+                    :
+                        <div className="navbar-anchor-buttons">
+                            <AnchorButton text={"Produto"} htmlID={"produto"}/>
+                            <AnchorButton text={"Contato"} htmlID={"contato"}/>
+                            <AnchorButton text={"Benefícios"} htmlID={"beneficios"}/>
+                            <AnchorButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
+                        </div>
+                    }
+                </nav>
             </div>
 
         </header>
