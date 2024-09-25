@@ -3,6 +3,7 @@
     color: white;
     transition: transform 0.3s ease;
     border-radius: 10px;
+    padding: 0px 16px;
 }
 
 .anchor-button:hover{

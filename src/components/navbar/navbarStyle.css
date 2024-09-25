@@ -14,7 +14,7 @@
     display: flex;
     width: auto;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.95);
     color: white;
     padding: 8px 40px 8px 40px;
@@ -23,7 +23,7 @@
 .navbar-anchor-buttons{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
 }
 
 /* Smartphones (retratos) */
@@ -89,7 +89,7 @@
     .navbar-anchor-buttons{
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 24px;
     }
 }
 

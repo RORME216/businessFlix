@@ -1,6 +1,8 @@
 .mobile-menu__icon {
     width: 12vw;
     height: 12vw;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 .mobile-menu__container {

@@ -32,7 +32,7 @@ export default function Navbar() {
                     <AnchorButton text={"Produto"} htmlID={"produto"}/>
                     <AnchorButton text={"Contato"} htmlID={"contato"}/>
                     <AnchorButton text={"Benefícios"} htmlID={"beneficios"}/>
-                    <AnchorButton text={"Nossos Parceiros"} htmlID={"nossosParceiros"}/>
+                    <AnchorButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
                 </div>
                 }
                 
