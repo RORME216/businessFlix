@@ -1,5 +1,4 @@
 import "./carosselStyle.css"
-import BenefitsCard from "../section/pageSections/oqueFazemos/subComponent/benefitsCard/benefitsCard";
 import { useMeasure } from "@uidotdev/usehooks";
 import { animate, useMotionValue, motion } from "framer-motion";
 import { useEffect } from "react";

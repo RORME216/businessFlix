@@ -11,10 +11,10 @@ import HeroSection from "../components/section/pageSections/heroSection/heroSect
 
 export default function Homepage() {
     const cor_azul_escuro = "#002060";
-    const cor_azul_escuro_medio = "#365080";
+    //const cor_azul_escuro_medio = "#365080";
     const cor_azul_claro = "#DEEBF7";
-    const cor_azul_claro_medio = "#9DC3E6";
-    const cor_verde_claro = "#3FFF25";
+    //const cor_azul_claro_medio = "#9DC3E6";
+    //const cor_verde_claro = "#3FFF25";
 
 
 
