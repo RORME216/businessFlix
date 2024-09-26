@@ -48,12 +48,6 @@
     line-height: normal;
     background-color: #3FFF25;
     cursor: pointer;
-    transition: transform 0.5s ease;
-}
-
-.contato__button:hover {
-    transition: transform 0.5s ease;
-    transform: scale(1.2);
 }
 
 a {
@@ -190,13 +184,13 @@ a {
 }
 
 /* Laptops */
-@media (min-width: 1025px) and (max-width: 1367px) {}
-
-/* Monitores desktop */
-@media (min-width: 1367px) {}
-
-/* Monitores 4K */
-@media (min-width: 1921px) and (max-width: 3840px) {}
-
-/* Telas Ultra-wide */
-@media (min-width: 2560px) {}
+@media (min-width: 1025px) {
+    .contato__button {
+        transition: transform 0.5s ease;
+    }
+    
+    .contato__button:hover {
+        transition: transform 0.5s ease;
+        transform: scale(1.2);
+    }
+}
