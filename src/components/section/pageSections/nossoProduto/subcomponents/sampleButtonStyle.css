@@ -10,6 +10,16 @@
     line-height: normal;
     background-color: #3FFF25;
     cursor: pointer;
-    transition: transform 0.5s ease;
     justify-self: center;
+}
+
+@media (min-width: 1025px) {
+    .nosso-produto__botao-amostra {
+        transition: transform 0.4s ease;
+    }
+
+    .nosso-produto__botao-amostra:hover {
+        transition: transform 0.4s ease;
+        transform: scale(1.1);
+}
 }
