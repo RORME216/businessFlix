@@ -12,8 +12,8 @@ export default function Footer() {
             <div className="footer-upper-part">
                 <div className="contact">
                     <div className="icons-container">
-                        <a href="mailto:robertoramonmendonca@gmail.com"><MdOutlineEmail className="icon-link" color="white"/></a>
-                        <a href="https://www.whatsapp.com"><FaWhatsapp className="icon-link" color="white"/></a>
+                        <a href="mailto:robertoramonmendonca@gmail.com" target="_blank" rel="noopener noreferrer"><MdOutlineEmail className="icon-link" color="white"/></a>
+                        <a href="https://wa.me/5516988041257" target="_blank" rel="noopener noreferrer"><FaWhatsapp className="icon-link" color="white"/></a>
                        {/* <a href="mailto:email@provedor.com.br?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente">Enviar email</a> */}
                     </div>
                     <div className="Logo">
