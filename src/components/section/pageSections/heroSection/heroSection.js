@@ -2,7 +2,7 @@ import "./heroSectionStyle.css"
 
 export default function HeroSection() {
     return (
-        <article className="hero-section__container">
+        <article className="hero-section__container" id="heroSection">
             <div className="hero-section__background"></div>
             <img className="hero-section__background-image" src="/photos/heroSection/foto_01.jpg" alt="Empregados focados trabalhando em equipamentos eletrónicos"/>
 
