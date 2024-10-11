@@ -14,7 +14,7 @@ import BenefitsCard from "./subComponent/benefitsCard/benefitsCard";
 const data = [
     {
         photo: "/photos/carossel/construction_team.png",
-        text: "são entendidos facilmente",
+        text: "são fáceis de entender",
         icon: <FaBrain />
     },
     {
@@ -24,7 +24,7 @@ const data = [
     },
     {
         photo: "/photos/carossel/phone_user.png",
-        text: "simplesmente engajam",
+        text: "engajam",
         icon: <FaHandshake />
     },
     {
@@ -34,7 +34,7 @@ const data = [
     },
     {
         photo: "/photos/carossel/team_working.png",
-        text: "mudam comportamento",
+        text: "mudam comportamentos",
         icon: <FaExchangeAlt />
     },
     {
