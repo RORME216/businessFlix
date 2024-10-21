@@ -3,6 +3,7 @@
     text-align: center;
     font-family: Karla;
     font-style: normal;
+    margin-bottom: 50px;
 }
 
 .beneficios__content {
@@ -29,7 +30,7 @@
 @media (min-width: 361px) and (max-width: 522px) {
     .beneficios__container {
         width: auto;
-        margin: 0px 32px;
+        margin: 0px 32px  32px  32px;
     }
     .beneficios__title {
         font-size: 2.5rem;
@@ -42,7 +43,7 @@
 @media (min-width: 522px) and (max-width: 640px) {
     .beneficios__container {
         width: auto;
-        margin: 0px 32px;
+        margin: 0px 32px 32px 32px;
     }
     .beneficios__title {
         font-size: 2.5rem;
@@ -55,7 +56,7 @@
 @media (min-width: 641px) and (max-width: 768px) {
     .beneficios__container {
         width: auto;
-        margin: 0px 32px;
+        margin: 0px 32px 32px 32px;
     }
     .beneficios__title {
         font-size: 2.5rem;
@@ -68,10 +69,10 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     .beneficios__container {
         width: auto;
-        margin: 0px 200px;
+        margin: 0px 200px 50px 200px;
     }
     .beneficios__title {
-        font-size: 4.5rem;
+        font-size: 3rem;
         font-weight: 800;
         line-height: normal;
     }
@@ -80,7 +81,7 @@
 /* Laptops */
 @media (min-width: 1025px) and (max-width: 1367px) {
     .beneficios__container {
-        width: auto;
+        width: 80%;
         margin: 0px 200px;
     }
     .beneficios__title {
@@ -93,11 +94,11 @@
 /* Monitores desktop */
 @media (min-width: 1367px) {
     .beneficios__container {
-        width: auto;
+        width: 65%;
         margin: 0px 200px;
     }
     .beneficios__title {
-        font-size: 4.5rem;
+        font-size: 3rem;
         font-weight: 800;
         line-height: normal;
     }
@@ -107,7 +108,7 @@
 @media (min-width: 1921px) and (max-width: 3840px) {
     .beneficios__container {
         width: auto;
-        margin: 0px 200px;
+        margin: 0px 200px 50px 200px;
     }
     .beneficios__title {
         font-size: 4.5rem;
@@ -120,10 +121,10 @@
 @media (min-width: 2560px) {
     .beneficios__container {
         width: auto;
-        margin: 0px 200px;
+        margin: 0px 200px 50px 200px;
     }
     .beneficios__title {
-        font-size: 4.5rem;
+        font-size: 3rem;
         font-weight: 800;
         line-height: normal;
     }
