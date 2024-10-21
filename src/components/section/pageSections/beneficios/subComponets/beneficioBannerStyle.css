@@ -1,14 +1,14 @@
 .beneficio-banner__container {
     display: flex;
     align-items: center;
-    width: 386px;
+    width: 340px;
     margin: 8px;
     gap: 16px;
 }
 
 .beneficio-banner__icon {
-    min-width: 40px;
-    min-height: 40px;
+    min-width: 32px;
+    min-height: 32px;
     color: white;
 }
 
@@ -63,15 +63,15 @@
     }
     
     .beneficio-banner__icon {
-        min-width: 40px;
-        min-height: 40px;
+        min-width: 32px;
+        min-height: 32px;
         color: white;
     }
     
     .beneficio-banner__text {
         color: #FFF;
         font-family: "Inria Sans";
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
