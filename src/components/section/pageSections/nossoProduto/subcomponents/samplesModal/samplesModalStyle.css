@@ -1,0 +1,36 @@
+.samples-modal__background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002060d1;
+}
+
+.samples-modal__container {
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.samples-modal__superior-area{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.samples-modal__title{
+    width: 100%;
+}
+
+.samples-modal__close-icon{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
