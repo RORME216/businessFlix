@@ -1,0 +1,184 @@
+.quem-somos__container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos__image-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quem-somos__content-auxiliar-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 50vw;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+}
+
+.quem-somos__content{  
+    box-sizing: border-box;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px) grayscale(0.4);
+}
+
+.quem-somos__title{
+    color: var(--dark-blue, #002060);
+    text-align: center;
+    font-family: Karla;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.quem-somos__text{
+    color: var(--dark-blue, #002060);
+    font-family: Karla;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+
+/* Smartphones (retratos) */
+@media (max-width: 360px) {
+    .beneficios__container {
+        width: auto;
+    }
+    .beneficios__title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 522px) {
+    .beneficios__container {
+        width: auto;
+        margin: 0px 32px  32px  32px;
+    }
+    .beneficios__title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+/* Smartphones (paisagem) */
+@media (min-width: 522px) and (max-width: 640px) {
+    .beneficios__container {
+        width: auto;
+        margin: 0px 32px 32px 32px;
+    }
+    .beneficios__title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+/* Tablets (retratos) */
+@media (min-width: 641px) and (max-width: 768px) {
+    .beneficios__container {
+        width: auto;
+        margin: 0px 32px 32px 32px;
+    }
+    .beneficios__title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+/* Tablets (paisagem) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .beneficios__container {
+        width: auto;
+        margin: 0px 200px 50px 200px;
+    }
+    .beneficios__title {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1367px) {
+    .beneficios__container {
+        width: 80%;
+        margin: 0px 200px;
+    }
+    .beneficios__title {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+/* Monitores desktop */
+@media (min-width: 1367px) {
+    .beneficios__container {
+        width: 65%;
+        margin: 0px 200px;
+    }
+    .beneficios__title {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+/* Monitores 4K */
+@media (min-width: 1921px) and (max-width: 3840px) {
+    .beneficios__container {
+        width: auto;
+        margin: 0px 200px 50px 200px;
+    }
+    .beneficios__title {
+        font-size: 4.5rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+/* Telas Ultra-wide */
+@media (min-width: 2560px) {
+    .beneficios__container {
+        width: auto;
+        margin: 0px 200px 50px 200px;
+    }
+    .beneficios__title {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+}

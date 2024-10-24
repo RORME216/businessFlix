@@ -8,6 +8,7 @@ import NossoProduto from "../components/section/pageSections/nossoProduto/nossoP
 import OQueFazemos from "../components/section/pageSections/oqueFazemos/oQueFazemos";
 import Section from "../components/section/section";
 import HeroSection from "../components/section/pageSections/heroSection/heroSection";
+import QuemSomos from "../components/section/pageSections/quemSomos/quemSomos";
 
 export default function Homepage() {
     const cor_azul_escuro = "#002060";
@@ -23,6 +24,7 @@ export default function Homepage() {
             <Navbar />  
             <main>
                 <HeroSection />
+                <QuemSomos />
                 <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}/>
                 <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro} sectionId={"oqueFazemos"}/>
                 <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro} sectionId={"contato"}/>
