@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import AnchorButton from './anchorButton/anchorButton';
-import BusinessFlixLogo from './logo/logo';
+import AnchorButton from './subcomponents/anchorButton/anchorButton';
+import BusinessFlixLogo from './subcomponents/logo/logo';
 import './navbarStyle.css'
-import MobileMenu from './mobileMenu/mobileMenu';
+import MobileMenu from './subcomponents/mobileMenu/mobileMenu';
 
 export default function Navbar() {
 

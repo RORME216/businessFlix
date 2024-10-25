@@ -1,7 +1,7 @@
 import "./mobileMenuStyle.css"
 import { useState } from "react";
-import AnchorButton from "../anchorButton/anchorButton";
 import { IoMenu } from "react-icons/io5";
+import AnchorMobileButton from "../mobileAnchorButton/anchorMobileButton";
 
 export default function MobileMenu() {
 
@@ -25,10 +25,11 @@ export default function MobileMenu() {
             <>
                 <IoMenu className="mobile-menu__icon"p />
                 <div className="navbar-anchor-buttons__mobile" style={headerHeight? mobileDropMenu : {}}>
-                    <AnchorButton text={"Produto"} htmlID={"produto"}/>
-                    <AnchorButton text={"Contato"} htmlID={"contato"}/>
-                    <AnchorButton text={"Benefícios"} htmlID={"beneficios"}/>
-                    <AnchorButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
+                    <AnchorMobileButton text={"Quem Somos"} htmlID={"quemSomos"}/>
+                    <AnchorMobileButton text={"Produto"} htmlID={"produto"}/>
+                    <AnchorMobileButton text={"Contato"} htmlID={"contato"}/>
+                    <AnchorMobileButton text={"Benefícios"} htmlID={"beneficios"}/>
+                    <AnchorMobileButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
                 </div>
             </>
             }

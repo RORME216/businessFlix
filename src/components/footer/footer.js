@@ -1,7 +1,7 @@
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import "./footerStyle.css"
-import BusinessFlixLogo from "../navbar/logo/logo";
+import BusinessFlixLogo from "../navbar/subcomponents/logo/logo";
 
 export default function Footer() {
 

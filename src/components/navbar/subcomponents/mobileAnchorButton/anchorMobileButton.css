@@ -1,0 +1,67 @@
+.anchor-mobile-button{
+    display: flex;
+    color: white;
+    text-align: right;
+}
+
+a {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* Smartphones (retratos) */
+@media (max-width: 360px) {
+    .anchor-mobile-button{
+        font-size: 24px;
+        width: 160px;
+        padding: 8px 16px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 522px) {
+    .anchor-mobile-button{
+        font-size: 24px;
+        width: 160px;
+        padding: 10px 16px;
+        justify-content: right;
+    }
+}
+
+/* Smartphones (paisagem) */
+@media (min-width: 522px) and (max-width: 640px) {
+    .anchor-mobile-button{
+        font-size: 24px;
+        width: 160px;
+        padding: 10px 16px;
+        justify-content: right;
+    }
+}
+
+/* Tablets (retratos) */
+@media (min-width: 641px) and (max-width: 768px) {
+    .anchor-mobile-button{
+        font-size: 32px;
+        width: 268px;
+        padding: 10px 32px;
+        justify-content: right;
+    }
+}
+
+/* Tablets (paisagem) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .anchor-mobile-button{
+        font-size: 32px;
+        width: 268px;
+        padding: 10px 32px;
+        justify-content: right;
+    }
+}
