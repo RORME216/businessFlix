@@ -36,17 +36,23 @@
     margin: 0px;
 }
 
-.contato__button {
-    border-radius: 15px;
-    border: 3px solid black;
-    padding: 20px 40px 20px 40px;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    background-color: #3FFF25;
+.contato__buttons-area {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contato__whats-app-button {
+    width: 40px;
+    height: 40px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.contato__email-button {
+    width: 40px;
+    height: 40px;
+    color: #000000;
     cursor: pointer;
 }
 
