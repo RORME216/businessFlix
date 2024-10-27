@@ -2,7 +2,7 @@ import "./emailModalStyle.css";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 
-export default function EmailModal({ setIsOpenemailModal }) {
+export default function EmailModal({ setIsOpenEmailModal }) {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -20,7 +20,7 @@ export default function EmailModal({ setIsOpenemailModal }) {
   }
 
   function onClose() {
-    setIsOpenemailModal(false);
+    setIsOpenEmailModal(false);
   }
 
   async function handleSubmit(e) {
