@@ -7,11 +7,7 @@ export default function EmailModal({ setIsOpenEmailModal }) {
     fullName: "",
     email: "",
     subject: "",
-    message: "",
-    contactReason: "",
-    company: "",
-    position: "",
-    howDidYouFindUs: ""
+    message: ""
   });
 
   function handleChange(e) {
@@ -70,38 +66,6 @@ export default function EmailModal({ setIsOpenEmailModal }) {
             value={formData.message}
             onChange={handleChange}
             required
-          />
-
-          <label>Motivo do Contato:</label>
-          <input
-            type="text"
-            name="contactReason"
-            value={formData.contactReason}
-            onChange={handleChange}
-          />
-
-          <label>Empresa:</label>
-          <input
-            type="text"
-            name="company"
-            value={formData.company}
-            onChange={handleChange}
-          />
-
-          <label>Cargo:</label>
-          <input
-            type="text"
-            name="position"
-            value={formData.position}
-            onChange={handleChange}
-          />
-
-          <label>Como nos conheceu:</label>
-          <input
-            type="text"
-            name="howDidYouFindUs"
-            value={formData.howDidYouFindUs}
-            onChange={handleChange}
           />
 
           <button type="submit">Enviar</button>
