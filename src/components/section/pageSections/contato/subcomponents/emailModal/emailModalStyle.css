@@ -14,13 +14,15 @@
   }
   
   .email-modal__container {
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
     color: #000000;
 
     padding: 20px;
     border-radius: 24px;
     max-width: 500px;
-    height: 80vh;
+    height: min-content;
     width: 100%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     position: relative;
@@ -55,7 +57,6 @@
   }
   
   .email-modal__form {
-    height: 60vh;
     padding: 16px;
     background-color: #ededed;
     border-radius: 8px;
