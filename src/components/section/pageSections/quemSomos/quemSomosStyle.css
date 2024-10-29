@@ -225,8 +225,9 @@
     
     .quem-somos__content{  
         box-sizing: border-box;
-        padding-right: 80px;
-        padding-left: 80px;
+        padding-right: 56px;
+        padding-left: 56px;
+        padding-bottom: 30px ;
         border-radius: 30px;
     
         display: flex;
@@ -234,7 +235,7 @@
         justify-content: center;
         align-self: stretch;
     
-        background: rgba(255, 255, 255, 0.10);
+        background: rgba(255, 255, 255, 0.20);
         backdrop-filter: blur(7.5px) grayscale(0.4);
     }
     
@@ -250,7 +251,7 @@
         color: var(--dark-blue, #002060);
         font-family: Karla;
         font-style: normal;
-        font-size: 1.5rem;
+        font-size: 1.12rem;
         text-indent: 2em;
         text-align: justify;
     }
@@ -289,16 +290,17 @@
     
         
         box-sizing: border-box;
-        padding-top: 100px;
+        padding-top: 70px;
         padding-right: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 50px;
         border-radius: 30px;
     }
     
     .quem-somos__content{  
         box-sizing: border-box;
-        padding-right: 80px;
-        padding-left: 80px;
+        padding-right: 56px;
+        padding-left: 56px;
+        padding-bottom: 30px ;
         border-radius: 30px;
     
         display: flex;
@@ -306,7 +308,7 @@
         justify-content: center;
         align-self: stretch;
     
-        background: rgba(255, 255, 255, 0.10);
+        background: rgba(255, 255, 255, 0.20);
         backdrop-filter: blur(7.5px) grayscale(0.4);
     }
     
@@ -322,7 +324,7 @@
         color: var(--dark-blue, #002060);
         font-family: Karla;
         font-style: normal;
-        font-size: 1.5rem;
+        font-size: 1.12rem;
         text-indent: 2em;
         text-align: justify;
     } 
