@@ -33,7 +33,7 @@ export default function NossosParceiros() {
 
     return (
         <article className="nossos-parceiros__container">
-            <h2 className="nossos-parceiros__title">Parceiros</h2>
+            <h2 className="nossos-parceiros__title">QUEM JÁ É NOSSO PARCEIRO, APROVA!</h2>
             
                 { screenWidth >= 1025 ?
                     <div className="nossos-parceiros__caroussel">
