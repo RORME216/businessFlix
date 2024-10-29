@@ -24,12 +24,12 @@ export default function Homepage() {
             <Navbar />  
             <main>
                 <HeroSection />
-                <QuemSomos />
                 <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}/>
-                <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro} sectionId={"oqueFazemos"}/>
-                <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro} sectionId={"contato"}/>
                 <Section childComponent={<Beneficios />} backgroundColor={cor_azul_escuro} sectionId={"beneficios"}/>
+                <QuemSomos />
+                <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro} sectionId={"oqueFazemos"}/>
                 <Section childComponent={<NossosParceiros />} backgroundColor={cor_azul_claro} sectionId={"nossosParceiros"}/>
+                <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro} sectionId={"contato"}/>
             </main>
             <Footer />
         </>
