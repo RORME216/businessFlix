@@ -8,7 +8,7 @@ export default function HeroSection() {
 
             <div className="hero-section__content">
                 <img className="hero-section_phone-frame" src="/photos/heroSection/foto_celular.png" alt="Smarth phone exibendo video educativo da empresa"/>
-                <h2 className="hero-section__header-call">Comunicação inovadora que transforma</h2>
+                <h2 className="hero-section__header-call">COMUNICAÇÃO INOVADORA QUE TRANSFORMA</h2>
             </div>
         </article>
     );
