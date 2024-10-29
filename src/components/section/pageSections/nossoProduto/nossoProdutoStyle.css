@@ -35,7 +35,12 @@
     flex-wrap: wrap;
 }
 
-.nosso-produto__text-container{display: grid;}
+.nosso-produto__text-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;    
+}
 
 @media (max-width: 360px) {
     
@@ -191,7 +196,6 @@
 /* Laptops */
 @media (min-width: 1025px) and (max-width: 1366px) {
     .nosso-produto__title {
-        font-family: 'Karla';
         font-size: 3rem;
         font-weight: 800;
         text-align: center;
@@ -208,7 +212,7 @@
 
     .nosso-produto__text {
         width: 600px;
-        font-size: 1.5rem;
+        font-size: 1.12rem;
         font-weight: 400;
     }
 
@@ -227,7 +231,6 @@
 /* Monitores desktop */
 @media (min-width: 1367px) and (max-width: 1920px) {
     .nosso-produto__title {
-        font-family: 'Karla';
         font-size: 3rem;
         font-weight: 800;
         text-align: center;
@@ -243,7 +246,7 @@
 
     .nosso-produto__text {
         width: 600px;
-        font-size: 1.5rem;
+        font-size: 1.12rem;
         font-weight: 400;
     }
 
@@ -263,7 +266,6 @@
 /* Monitores 4K */
 @media (min-width: 1921px) and (max-width: 3840px)  {
     .nosso-produto__title {
-        font-family: 'Karla';
         font-size: 3rem;
         font-weight: 800;
         text-align: center;
@@ -301,7 +303,6 @@
 /* Telas Ultra-wide */
 @media (min-width: 2560px)  {
     .nosso-produto__title {
-        font-family: 'Karla';
         font-size: 3rem;
         font-weight: 800;
         text-align: center;

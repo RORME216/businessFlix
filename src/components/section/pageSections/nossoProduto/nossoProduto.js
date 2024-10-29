@@ -32,7 +32,7 @@ export default function NossoProduto() {
     if(photos)
         return(
             <article className="nosso-produto__container">
-                <h2 className="nosso-produto__title">{nossoProduto.title}</h2>
+                <h2 className="nosso-produto__title">VÍDEOS CURTOS, APRENDIZADO DURADOURO</h2>
                 <div className="nosso-produto__content">
                     {screenWidth > 1024 ? 
                         <>
@@ -54,14 +54,13 @@ export default function NossoProduto() {
                                 
                             </div>
                             <div className="nosso-produto__text-container">
-                                <p className="nosso-produto__text"><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
-                                <p className="nosso-produto__text">Ajudamos   a   <b>atender  requisitos ESG (ambiental, social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                                <p className="nosso-produto__text">A BusinessFlix impulsiona a cultura corporativa da sua empresa por meio da conscientização dos colaboradores. De segurança no trabalho a técnicas de vendas, de políticas internas a liderança, desenvolvemos conteúdos para todas as necessidades dos nossos clientes, sem barreiras para abordar temas críticos como assédio, racismo, saúde e comunicação.</p>
+                                <p className="nosso-produto__text">Nosso trabalho complementa o Plano de Desenvolvimento de Pessoas (PDP), Procedimento Operacional Padrão (POP), ESG (ambiental, social e governança) e outros programas das empresas.</p>
                                 <SampleButton />
                             </div>
                         </>
                         :
                         <>
-                            <p className="nosso-produto__text"><b>Desenvolvemos a cultura coorporativa</b> por meio da conscientização de colaboradores com uma <b>abordagem inovadora.</b></p>
                             <div className="nosso-produto__imagens-container">
                                 {screenWidth > 640 ? 
                                     <>
@@ -80,7 +79,7 @@ export default function NossoProduto() {
                                 
                             </div>
 
-                            <p className="nosso-produto__text">Ajudamos   a   <b>atender  requisitos ESG (ambiental,social e governança)</b>, englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros</p>
+                            <p className="nosso-produto__text">A BusinessFlix impulsiona a cultura corporativa da sua empresa por meio da conscientização dos colaboradores. De segurança no trabalho a técnicas de vendas, de políticas internas a liderança, desenvolvemos conteúdos para todas as necessidades dos nossos clientes, sem barreiras para abordar temas críticos como assédio, racismo, saúde e comunicação. Nosso trabalho complementa o Plano de Desenvolvimento de Pessoas (PDP), Procedimento Operacional Padrão (POP), ESG (ambiental, social e governança) e outros programas das empresas.</p>
                             <SampleButton />
                         </>
                     }
