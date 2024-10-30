@@ -9,6 +9,7 @@ export default function QuemSomos() {
             <article className="quem-somos__container" id="quemSomos">
                 <img className="quem-somos__image-background"
                     src="/photos/quemSomos/quemSomos.jpg"
+                    alt="Imagem de fundo - dois operarios conversando"
                 />
                 <div className="quem-somos__content-auxiliar-container">
                     <div className="quem-somos__content">

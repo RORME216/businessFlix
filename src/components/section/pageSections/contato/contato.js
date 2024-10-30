@@ -1,6 +1,6 @@
 import "./contatoStyle.css"
 import { MdOutlineEmail } from "react-icons/md";
-
+import {FaWhatsapp} from 'react-icons/fa'
 {/*import EmailButton from "./subcomponents/emailModal/emailButton";*/}
 
 export default function Contato() {
