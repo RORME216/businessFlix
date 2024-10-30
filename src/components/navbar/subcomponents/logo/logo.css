@@ -1,6 +1,7 @@
 .logo-business-flix{
     display: flex;
     color: white;
+    font-weight: 700;
     align-items: center;
     font-size: 40px;
 }
