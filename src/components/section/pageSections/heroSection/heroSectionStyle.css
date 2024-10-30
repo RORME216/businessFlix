@@ -41,7 +41,7 @@
         width: 90vw;  
         color: white;
         font-family: Lato;
-        font-size: 56px;
+        font-size: 44px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -90,7 +90,7 @@
         width: 90vw;  
         color: white;
         font-family: Lato;
-        font-size: 56px;
+        font-size: 48px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -188,12 +188,12 @@
     }
     
     .hero-section_phone-frame {
-        width: 38.5%;
+        width: 50%;
         max-height: 480px;
     }
     
     .hero-section__header-call {
-        width: 440px;  
+        width: 340px;  
         color: var(--dark-blue, #002060);
         font-family: Lato;
         font-size: 40px;
@@ -241,12 +241,12 @@
     }
     
     .hero-section_phone-frame {
-        width: 38.5%;
+        width: 50%;
         max-height: 480px;
     }
     
     .hero-section__header-call {
-        width: 440px;  
+        width: 340px;  
         color: var(--dark-blue, #002060);
         font-family: Lato;
         font-size: 40px;
@@ -294,7 +294,7 @@
     }
     
     .hero-section_phone-frame {
-        width: 38.5%;
+        width: 50%;
         max-height: 480px;
     }
     
