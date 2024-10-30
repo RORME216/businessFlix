@@ -25,11 +25,11 @@ export default function MobileMenu() {
             <>
                 <IoMenu className="mobile-menu__icon"p />
                 <div className="navbar-anchor-buttons__mobile" style={headerHeight? mobileDropMenu : {}}>
-                    <AnchorMobileButton text={"Quem Somos"} htmlID={"quemSomos"}/>
                     <AnchorMobileButton text={"Produto"} htmlID={"produto"}/>
-                    <AnchorMobileButton text={"Contato"} htmlID={"contato"}/>
                     <AnchorMobileButton text={"Benefícios"} htmlID={"beneficios"}/>
+                    <AnchorMobileButton text={"Quem Somos"} htmlID={"quemSomos"}/>
                     <AnchorMobileButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
+                    <AnchorMobileButton text={"Contato"} htmlID={"contato"}/>
                 </div>
             </>
             }

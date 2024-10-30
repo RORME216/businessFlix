@@ -29,11 +29,11 @@ export default function Navbar() {
                         <MobileMenu />
                     :
                         <div className="navbar-anchor-buttons">
-                            <AnchorButton text={"Quem Somos"} htmlID={"quemSomos"}/>
                             <AnchorButton text={"Produto"} htmlID={"produto"}/>
-                            <AnchorButton text={"Contato"} htmlID={"contato"}/>
                             <AnchorButton text={"Benefícios"} htmlID={"beneficios"}/>
+                            <AnchorButton text={"Quem Somos"} htmlID={"quemSomos"}/>
                             <AnchorButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
+                            <AnchorButton text={"Contato"} htmlID={"contato"}/>
                         </div>
                     }
                 </nav>
