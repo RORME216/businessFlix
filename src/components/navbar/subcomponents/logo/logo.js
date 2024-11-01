@@ -4,7 +4,7 @@ export default function BusinessFlixLogo() {
     return (
         <a href="#heroSection">
             <div className="logo-business-flix">
-                BusinessFlix
+                <b>Business</b>Flix
             </div>
         </a>
     );
