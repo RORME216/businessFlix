@@ -23,7 +23,6 @@ export default function NossoProduto() {
                     console.log(`Erro HTTP: ${response.status}`)
                 }
                 const data = await response.json();
-                console.log("agora")
                 setNossoProduto(data.nossoProduto);
                 setPhotos(data.nossoProduto.photos)
             } catch (error) {
@@ -45,10 +44,8 @@ export default function NossoProduto() {
             })
             setHasHappen(true);
         }
-        console.log("inView:", inView);
     },[inView])
 
-    console.log(photos)
     if(photos)
         return(
             <motion.article className="nosso-produto__container"
