@@ -2,10 +2,16 @@ import Carossel from "../../../carousel/carousel";
 import "./nossoProdutoStyle.css"
 import { useEffect, useState } from "react";
 import SampleButton from "./subcomponents/sampleButton";
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 export default function NossoProduto() {
     const [nossoProduto, setNossoProduto] = useState({});
     const [photos, setPhotos] = useState();
+    const [hasHappen, setHasHappen] = useState(false);
+
+    const { ref, inView } = useInView({threshold: 0.1});
+    const animation = useAnimation();
 
     const screenWidth = window.innerWidth;
 
@@ -28,10 +34,28 @@ export default function NossoProduto() {
         fetchData();
     }, [])
 
+    useEffect(() => {
+        if (inView || !hasHappen) {
+            animation.start({
+                y: 0,
+                opacity:1,
+                transition: {
+                    type: 'spring', duration: 2.5, bounce: 0.2
+                }
+            })
+            setHasHappen(true);
+        }
+        console.log("inView:", inView);
+    },[inView])
+
     console.log(photos)
     if(photos)
         return(
-            <article className="nosso-produto__container">
+            <motion.article className="nosso-produto__container"
+                ref={ref} 
+                animate={animation}
+                initial={{ y: 100, opacity: 0 }} // Define o estado inicial para a animação
+            >
                 <h2 className="nosso-produto__title">VÍDEOS CURTOS, APRENDIZADO DURADOURO</h2>
                 <div className="nosso-produto__content">
                     {screenWidth > 1024 ? 
@@ -88,7 +112,7 @@ export default function NossoProduto() {
                     }
 
                 </div>
-            </article>
+            </motion.article>
         );
 
     return(
