@@ -9,6 +9,7 @@ import OQueFazemos from "../components/section/pageSections/oqueFazemos/oQueFaze
 import Section from "../components/section/section";
 import HeroSection from "../components/section/pageSections/heroSection/heroSection";
 import QuemSomos from "../components/section/pageSections/quemSomos/quemSomos";
+import { useEffect, useState } from "react";
 
 export default function Homepage() {
     const cor_azul_escuro = "#002060";
@@ -17,21 +18,47 @@ export default function Homepage() {
     //const cor_azul_claro_medio = "#9DC3E6";
     //const cor_verde_claro = "#3FFF25";
 
+    const [renderSections, setRenderSections] = useState({
+        hero: false,
+        nossoProduto: false,
+        beneficios: false,
+        quemSomos: false,
+        oQueFazemos: false,
+        nossosParceiros: false,
+        contato: false,
+        footer: false
+    });
+
+    useEffect( () => {
+
+        const timeout = [
+            setTimeout(() => setRenderSections(prev => ({...prev, hero: true})), 0),
+            setTimeout(() => setRenderSections(prev => ({...prev, nossoProduto: true})), 500),
+            setTimeout(() => setRenderSections(prev => ({...prev, beneficios: true})), 1000),
+            setTimeout(() => setRenderSections(prev => ({...prev, quemSomos: true})), 1500),
+            setTimeout(() => setRenderSections(prev => ({...prev, oQueFazemos: true})), 2000),
+            setTimeout(() => setRenderSections(prev => ({...prev, nossosParceiros: true})), 2500),
+            setTimeout(() => setRenderSections(prev => ({...prev, contato: true})), 3000),
+            setTimeout(() => setRenderSections(prev => ({...prev, footer: true})), 3500)
+        ]
+
+        return () => timeout.forEach(clearTimeout);
+    },[])
 
 
     return(
         <>
             <Navbar />  
             <main>
-                <HeroSection />
-                <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}/>
-                <Section childComponent={<Beneficios />} backgroundColor={cor_azul_escuro} sectionId={"beneficios"}/>
-                <QuemSomos />
-                <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro} sectionId={"oqueFazemos"}/>
-                <Section childComponent={<NossosParceiros />} backgroundColor={cor_azul_claro} sectionId={"nossosParceiros"}/>
-                <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro} sectionId={"contato"}/>
+                {renderSections.hero && <HeroSection />}
+                {renderSections.nossoProduto && <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}/>}
+                {renderSections.beneficios && <Section childComponent={<Beneficios />} backgroundColor={cor_azul_escuro} sectionId={"beneficios"}/>}
+                {renderSections.quemSomos && <QuemSomos />}
+                {renderSections.oQueFazemos && <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro} sectionId={"oqueFazemos"}/>}
+                {renderSections.nossosParceiros && <Section childComponent={<NossosParceiros />} backgroundColor={cor_azul_claro} sectionId={"nossosParceiros"}/>}
+                {renderSections.contato && <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro} sectionId={"contato"}/>}
             </main>
-            <Footer />
+            {renderSections.footer && <Footer />}
         </>
     );
 }
