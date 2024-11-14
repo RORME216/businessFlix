@@ -6,18 +6,12 @@ import { useInView } from "react-intersection-observer";
 export default function BeneficioBanner({icon, text, index}) {
     const { ref, inView } = useInView({threshold:0.8});
     const [hasHappen, setHasHappen] = useState(false);
-    
-    console.log("hasHappen :", hasHappen );
 
     useEffect( () => {
         if (inView && !hasHappen) {
             setHasHappen(true);
             console.log("ocorreu")
         }
-        console.log(" inView:", inView);
-        console.log("hasHappen :", hasHappen );
-        console.log("hasHappen || inView:", hasHappen || inView);
-        console.log("inView && !hasHappen:", inView && !hasHappen);
     },[inView])
 
 
