@@ -8,7 +8,7 @@ import BeneficioBanner from "./subComponets/beneficioBanner";
 import { FaRegLaughBeam } from "react-icons/fa";
 
 export default function Beneficios() {
-
+    
     const beneficios = [
         {
             icon: <FaArrowRotateRight className="beneficio-banner__icon" />,
@@ -49,8 +49,8 @@ export default function Beneficios() {
         <div className="beneficios__container">
             <h2 className="beneficios__title">CONTE COM A BUSINESSFLIX PARA</h2>
             <div className="beneficios__content">
-                {beneficios.map( beneficio => 
-                    <BeneficioBanner icon={beneficio.icon}  text={beneficio.text} />
+                {beneficios.map( (beneficio, index) => 
+                    <BeneficioBanner icon={beneficio.icon}  text={beneficio.text} index={index}/>
                 )}
             </div>
         </div>
