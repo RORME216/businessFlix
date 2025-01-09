@@ -39,7 +39,7 @@ export default function NossosParceiros() {
                     <div className="nossos-parceiros__caroussel">
                         <Carossel duration={120}>
                             {[...logos,...logos,...logos,...logos].map((item) => (
-                                <LogoParceiro path={item.path} descricao={item.alt} />
+                                <LogoParceiro path={item.path} descricao={item.alt} link={item.link}/>
                             ))}
                         </Carossel>
                     </div>
