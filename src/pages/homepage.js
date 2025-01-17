@@ -54,9 +54,9 @@ export default function Homepage() {
                 {renderSections.nossoProduto && <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}/>}
                 {renderSections.beneficios && <Section childComponent={<Beneficios />} backgroundColor={cor_azul_escuro} sectionId={"beneficios"}/>}
                 {renderSections.quemSomos && <QuemSomos />}
-                {renderSections.oQueFazemos && <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_escuro} sectionId={"oqueFazemos"}/>}
-                {renderSections.nossosParceiros && <Section childComponent={<NossosParceiros />} backgroundColor={cor_azul_claro} sectionId={"nossosParceiros"}/>}
+                {renderSections.oQueFazemos && <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_claro} sectionId={"oqueFazemos"} isSectioOqueFazemos={true}/>}
                 {renderSections.contato && <Section childComponent={<Contato />} backgroundColor={cor_azul_escuro} sectionId={"contato"}/>}
+                {renderSections.nossosParceiros && <Section childComponent={<NossosParceiros />} backgroundColor={cor_azul_claro} sectionId={"nossosParceiros"}/>}
             </main>
             {renderSections.footer && <Footer />}
         </>
