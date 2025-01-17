@@ -668,6 +668,110 @@
 /* Monitores desktop */
 @media (min-width: 1367px) {
     .oque-fazemos_container {
+        height: 110vh;
+    }
+
+    .oque-fazemos__imagens-background {
+        position: absolute;
+    
+        width: 100%;
+        height: 110vh;
+        top: 0;
+    }
+    
+    .oque-fazemos__imagem-especialistas {
+        position: absolute;
+        left: 0;
+        bottom: 5%;
+        height: 80%;
+    }
+    
+    .oque-fazemos__frase-de-efeito {
+        position: absolute;
+        bottom: 8%;
+        right: 20%;
+        width: 50%;
+    }
+    
+    .oque-fazemos__imagem-personagens {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50%;
+    }
+    
+    .oque-fazemos__imagem-alto-falante {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 50%;
+    }
+    
+    .oque-fazemos__text-container {
+        position: absolute;
+    
+        width: 100%;
+        height: 90vh;
+        top: 0;
+        z-index: 2;
+    }
+    
+    .oque-fazemos__titulo {
+        color: #002060;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-size: 58px;
+    }
+    
+    .oque-fazemos__bloco-texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .oque-fazemos__negrito {
+        color: #002060;
+        font-weight: 700;
+    }
+    
+    .oque-fazemos__numero {
+        color: #002060;
+        font-size: 58px;
+        font-weight: 800;
+        margin-right: 12px;
+    }
+    
+    .oque-fazemos__texto {
+        color: #365d81;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .titulo-1 {
+        margin: 0;
+        margin-left: 15%;
+        margin-top: 50px;
+    }
+    
+    .bloco-texto-1 {
+        margin-left: 15%;
+        width: 50%;
+    }
+    
+    .titulo-2 {
+        margin: 0;
+        margin-left: 31%;
+    }
+    .bloco-texto-2 {
+        margin-left: 40%;
+        width: 50%;
+    }
+}
+
+/* Monitores 4K */
+@media (min-width: 1921px) and (max-width: 3840px) {
+    .oque-fazemos_container {
         height: 80vh;
     }
 
@@ -768,9 +872,6 @@
         width: 50%;
     }
 }
-
-/* Monitores 4K */
-@media (min-width: 1921px) and (max-width: 3840px) {}
 
 /* Telas Ultra-wide */
 @media (min-width: 2560px) {}
