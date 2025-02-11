@@ -41,7 +41,6 @@
     align-items: center;
     height: 100%;
     justify-content: space-between;
-    gap: 20px;
 }
 
 @media (max-width: 360px) {
@@ -233,6 +232,10 @@
         height: 160px;
         width: 290px;
     }
+
+    .nosso-produto__text-container{
+        gap: 20px;
+    }
 }
 /* Monitores desktop */
 @media (min-width: 1367px) and (max-width: 1920px) {
@@ -266,6 +269,10 @@
     .nosso-produto__imagem {
         height: 160px;
         width: 290px;
+    }
+
+    .nosso-produto__text-container{
+        gap: 20px;
     }
 }
 
@@ -304,6 +311,10 @@
         height: 140px;
         width: 252px;
     }
+
+    .nosso-produto__text-container{
+        gap: 20px;
+    }
 }
 
 /* Telas Ultra-wide */
@@ -340,5 +351,9 @@
     .nosso-produto__imagem {
         height: 140px;
         width: 252px;
+    }
+
+    .nosso-produto__text-container{
+        gap: 20px;
     }
 }
