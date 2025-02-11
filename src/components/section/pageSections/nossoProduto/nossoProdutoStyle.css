@@ -186,7 +186,7 @@
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        overflow: hidden;
+        padding-bottom: 40px;
     }
 
     .nosso-produto__imagem {
