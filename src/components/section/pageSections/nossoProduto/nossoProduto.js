@@ -76,8 +76,9 @@ export default function NossoProduto() {
                                 
                             </div>
                             <div className="nosso-produto__text-container">
-                                <p className="nosso-produto__text">A BusinessFlix impulsiona a cultura corporativa da sua empresa por meio da conscientização dos colaboradores. De segurança no trabalho a técnicas de vendas, de políticas internas a liderança, desenvolvemos conteúdos para todas as necessidades dos nossos clientes, sem barreiras para abordar temas críticos como assédio, racismo, saúde e comunicação.</p>
-                                <p className="nosso-produto__text">Nosso trabalho complementa o Plano de Desenvolvimento de Pessoas (PDP), Procedimento Operacional Padrão (POP), ESG (ambiental, social e governança) e outros programas das empresas.</p>
+                                <p className="nosso-produto__text">A <b>BusinessFlix</b> impulsiona a cultura corporativa da sua empresa por meio da conscientização dos colaboradores em vídeos disruptivos.</p>
+                                <p className="nosso-produto__text">De segurança no trabalho a técnicas de vendas, de políticas internas a liderança, <b>desenvolvemos conteúdos para todas as necessidades dos nossos clientes,</b> sem barreiras para abordar temas críticos como assédio, racismo, saúde e comunicação.</p>
+                                <p className="nosso-produto__text"><b>Nosso trabalho complementa</b> o Plano de Desenvolvimento de Pessoas (PDP), Procedimento Operacional Padrão (POP), ESG (ambiental, social e governança) e outros programas das empresas.</p>
                                 <SampleButton />
                             </div>
                         </>
