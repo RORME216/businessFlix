@@ -1,8 +1,9 @@
 import "./sectionStyle.css"
 
-export default function Section({childComponent, backgroundColor, sectionId, isSectioOqueFazemos=false}) {
+export default function Section({childComponent, backgroundColor, backgroundImage, sectionId, isSectioOqueFazemos=false}) {
     const sectionStyle = {
         backgroundColor: backgroundColor,
+        backgroundImage: `url(${backgroundImage})`
     }
 
     return(

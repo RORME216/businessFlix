@@ -4,17 +4,17 @@
         "text" : "Desenvolvemos a cultura coorporativa por meio da conscientização de colaboradores com uma abordagem inovadora. Ajudamos   a   atender  requisitos ESG (ambiental,social e governança), englobando qualidade,   saúde   e  segurança   no  trabalho, praticas    anticorrupção,    antissuborno    e antiassédio, meio ambiente, sustentabilidade, entre outros",
         "photos": [
             {
-                "path": "./photos/nossoProdutoPhotos/imagem_1.png",
+                "path": "./photos/nossoProdutoPhotos/image_1.png",
                 "alt": "Funcionário estressado ao telefone."
             },
             {
-                "path": "./photos/nossoProdutoPhotos/imagem_2.png",
+                "path": "./photos/nossoProdutoPhotos/image_2.png",
                 "alt": "Psicologa Organizacional falando."
             }, {
-                "path": "./photos/nossoProdutoPhotos/imagem_3.png",
+                "path": "./photos/nossoProdutoPhotos/image_3.png",
                 "alt": "Funcionário cansando em linha de produção."
             }, {
-                "path": "./photos/nossoProdutoPhotos/imagem_4.png",
+                "path": "./photos/nossoProdutoPhotos/image_4.png",
                 "alt": "Nutricionista especialista em fisiologia do exercício falando."
             }
         ]

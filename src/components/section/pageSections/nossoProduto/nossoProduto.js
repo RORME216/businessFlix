@@ -53,6 +53,7 @@ export default function NossoProduto() {
                 animate={animation}
                 initial={{ y: 100, opacity: 0 }} // Define o estado inicial para a animação
             >
+
                 <h2 className="nosso-produto__title">VÍDEOS CURTOS, APRENDIZADO DURADOURO</h2>
                 <div className="nosso-produto__content">
                     {screenWidth > 1024 ? 

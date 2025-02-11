@@ -51,7 +51,8 @@ export default function Homepage() {
             <Navbar />  
             <main>
                 {renderSections.hero && <HeroSection />}
-                {renderSections.nossoProduto && <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}/>}
+                {renderSections.nossoProduto && <Section childComponent={<NossoProduto />} backgroundColor={cor_azul_claro} sectionId={"produto"}
+                    backgroundImage={"/photos/nossoProdutoPhotos/background.png"}/>}
                 {renderSections.beneficios && <Section childComponent={<Beneficios />} backgroundColor={cor_azul_escuro} sectionId={"beneficios"}/>}
                 {renderSections.quemSomos && <QuemSomos />}
                 {renderSections.oQueFazemos && <Section childComponent={<OQueFazemos />} backgroundColor={cor_azul_claro} sectionId={"oqueFazemos"} isSectioOqueFazemos={true}/>}
