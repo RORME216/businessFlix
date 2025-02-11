@@ -80,7 +80,13 @@
 @media (min-width: 769px) and (max-width: 1024px) {}
 
 /* Laptops */
-@media (min-width: 1025px) and (max-width: 1367px) {}
+@media (min-width: 1025px) and (max-width: 1367px) {
+    .nossos-parceiros__caroussel {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 
 /* Monitores desktop */
 @media (min-width: 1367px) {}

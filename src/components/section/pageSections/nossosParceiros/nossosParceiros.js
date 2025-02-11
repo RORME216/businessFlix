@@ -26,6 +26,16 @@ export default function NossosParceiros() {
             "link": "https://www.vetro.com.br/",
             "path": "/photos/nossosParceiros/vetro_solucoes.png",
             "alt": "Logo da empresa Vetro - Soluções Inteligentes em Tubos e Conexões"
+        },
+        {
+            "link": "https://www.correios.com.br/",
+            "path": "/photos/nossosParceiros/correios_logo.png",
+            "alt": "Logo da empresa Correios - Empresa Brasileira de Correios e Telégrafos"
+        },
+        {
+            "link": "https://loja.electrolux.com.br/",
+            "path": "/photos/nossosParceiros/electrolux_logo.png",
+            "alt": "Logo da empresa Electrolux"
         }
       ]
       
@@ -39,6 +49,11 @@ export default function NossosParceiros() {
                     <div className="nossos-parceiros__caroussel">
                         <Carossel duration={120}>
                             {[...logos,...logos,...logos,...logos].map((item) => (
+                                <LogoParceiro path={item.path} descricao={item.alt} link={item.link}/>
+                            ))}
+                        </Carossel>
+                        <Carossel duration={120}>
+                            {[...logos,...logos,...logos].map((item) => (
                                 <LogoParceiro path={item.path} descricao={item.alt} link={item.link}/>
                             ))}
                         </Carossel>
