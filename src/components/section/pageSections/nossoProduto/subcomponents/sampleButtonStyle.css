@@ -1,6 +1,5 @@
 .nosso-produto__botao-amostra {
-    border-radius: 15px;
-    border: 3px solid black;
+    border-radius: 24px;
     padding: 16px 40px 16px 40px;
     text-align: center;
     font-family: Montserrat;
@@ -8,9 +7,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    background-color: #3FFF25;
+    background-color: #002060;
     cursor: pointer;
     justify-self: center;
+    color: white;
 }
 
 @media (max-width: 1024px) {

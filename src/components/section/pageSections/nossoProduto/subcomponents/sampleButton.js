@@ -15,7 +15,7 @@ export default function SampleButton() {
                 href="https://vimeo.com/user213999881/amostra02bflix"
                 target="_blank" rel="noopener noreferrer"
             >
-                veja uma amostra
+                VEJA UMA AMOSTRA
             </a>
 
             {/*
