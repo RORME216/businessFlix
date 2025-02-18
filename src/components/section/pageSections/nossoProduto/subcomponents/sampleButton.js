@@ -12,7 +12,7 @@ export default function SampleButton() {
     return(
         <>
             <a className="nosso-produto__botao-amostra" 
-                href="https://vimeo.com/user213999881/amostra02bflix"
+                href="https://vimeo.com/user/213999881/folder/24127551"
                 target="_blank" rel="noopener noreferrer"
             >
                 VEJA UMA AMOSTRA
