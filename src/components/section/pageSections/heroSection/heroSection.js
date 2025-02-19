@@ -41,14 +41,14 @@ export default function HeroSection() {
                 <motion.div className="hero-section__content"
                     initial={{x:3500}}
                     animate={{x:0}}
-                    transition={{duration: 1.5, delay:1.5}}
+                    transition={{duration: 1.5}}
                 >
                     <motion.img className="hero-section_phone-frame"
                         src="/photos/heroSection/foto_celular.png"
                         alt="Smarth phone exibendo video educativo da empresa"
                         initial={{x:-5000}}
                         animate={{x:0}}
-                        transition={{duration: 1.5, delay:1.5}}
+                        transition={{duration: 1.5}}
                         />
                     
                         <div className="hero-section__heards-container"> 

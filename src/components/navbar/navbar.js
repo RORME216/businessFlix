@@ -22,11 +22,7 @@ export default function Navbar() {
 
 
     return (
-        <motion.header className="navbar-container"
-            initial={{y:-100}}
-            animate={{y:0}}
-            transition={{duration: 1, delay:1}}
-        >
+        <header className="navbar-container">
             <div className="navbar-wraper">
                 <BusinessFlixLogo className="logo" />
                 <nav>
@@ -34,42 +30,22 @@ export default function Navbar() {
                         <MobileMenu />
                     :
                         <div className="navbar-anchor-buttons">
-                            <motion.div
-                                initial={{opacity:0, duration: 1}}
-                                animate={{opacity:1}}
-                                transition={{duration:4, delay: 6}}    
-                            >
+                            <div>
                                 <AnchorButton text={"Produto"} htmlID={"produto"}/>
-                            </motion.div>
-                            <motion.div
-                                initial={{opacity:0, duration: 1}}
-                                animate={{opacity:1}}
-                                transition={{duration:4, delay: 5.5}}    
-                            >
+                            </div>
+                            <div>
                                 <AnchorButton text={"Benefícios"} htmlID={"beneficios"}/>
-                            </motion.div>
-                            <motion.div
-                                initial={{opacity:0, duration: 1}}
-                                animate={{opacity:1}}
-                                transition={{duration:4, delay: 5}}    
-                            >
+                            </div>
+                            <div>
                                 <AnchorButton text={"Quem Somos"} htmlID={"quemSomos"}/>
 
-                            </motion.div>
-                            <motion.div
-                                initial={{opacity:0, duration: 1}}
-                                animate={{opacity:1}}
-                                transition={{duration:4, delay: 4.5}}    
-                            >
+                            </div>
+                            <div>
                                 <AnchorButton text={"Parceiros"} htmlID={"nossosParceiros"}/>
-                            </motion.div>
-                            <motion.div
-                                initial={{opacity:0, duration: 1}}
-                                animate={{opacity:1}}
-                                transition={{duration:4, delay: 4}}    
-                            >
+                            </div>
+                            <div>
                                 <AnchorButton text={"Contato"} htmlID={"contato"}/>
-                            </motion.div>
+                            </div>
                             
                             
                         </div>
@@ -77,6 +53,6 @@ export default function Navbar() {
                 </nav>
             </div>
 
-        </motion.header>
+        </header>
     );
 }
