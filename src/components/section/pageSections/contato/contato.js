@@ -5,6 +5,7 @@ import EmailButton from "./subcomponents/emailModal/emailButton";
 import { motion } from 'framer-motion'
 import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
+import { whatsApp } from "../../../../data/dadosContato";
 
 export default function Contato() {
     const [hasHappen, setHasHappen] = useState(false);
@@ -27,7 +28,7 @@ export default function Contato() {
                 <p>Fale conosco por E-mail ou What´s App.</p>
 
                 <div className="contato__buttons-area">
-                    <a href="https://wa.me/5516988041257" target="_blank" rel="noopener noreferrer">
+                    <a href={`https://wa.me/${whatsApp}`} target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp className="contato__whats-app-button" />
                     </a>
                     
